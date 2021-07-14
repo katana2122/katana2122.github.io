@@ -42,6 +42,11 @@ p {
   transition: 1.5s;
 }
 
+.beaty_btn a {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
 .beaty_btn {
   position: relative;
   overflow: hidden;
@@ -101,6 +106,21 @@ p {
           transform: scale(4);
 }
 
+.beaty_btn:active.beaty_btn_span {
+  color: #c6c6e2;
+}
+
+.beaty_btn:active {
+  background: #0f03bb;
+}
+
+.beaty_btn:active:before,
+.beaty_btn:active:after {
+  opacity: .7;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
 @media (max-width: 996px) {
   .beaty_btn {
     padding: 20px 80px;
@@ -108,36 +128,27 @@ p {
 }
 
 @media (max-width: 600px) {
+  .beaty_btn_span {
+    font-size: 18px;
+  }
   .beaty_btn {
     padding: 5px 50px;
   }
 }
 
-.red_btn {
-  display: block;
-  margin: 0 auto;
-  padding: 20px 35px;
-  background: #ff304e;
-  border: 0;
-  outline: 0;
-  width: 240px;
-  height: 70px;
-  border-radius: 46.5px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 22px;
-  cursor: pointer;
-  -webkit-transition: background .3s linear;
-  transition: background .3s linear;
+@media (max-width: 400px) {
+  .beaty_btn_span {
+    font-size: 16px;
+  }
 }
 
-.red_btn:hover {
-  background: #ff072b;
-}
-
-.red_btn:active {
-  background: #b00019;
+@media (max-width: 360px) {
+  .beaty_btn_span {
+    font-size: 12px;
+  }
+  .beaty_btn {
+    padding: 5px 80px;
+  }
 }
 
 .introfirst {

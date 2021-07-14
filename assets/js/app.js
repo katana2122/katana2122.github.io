@@ -40,7 +40,7 @@ $(function () {
     let header = $("#header"),
         introH = $("#intro").innerHeight(),
         scrollOffset = $(window).scrollTop(),
-        sectionsH = $("#intro").innerHeight(),
+        sectionsH = $("#third_section").innerHeight(),
         anchor = $('#anchor');
     checkScroll(scrollOffset);
 
@@ -51,8 +51,7 @@ $(function () {
     });
 
     function checkScroll(scrollOffset) {
-        
-        if (scrollOffset >= sectionsH) {
+        if (scrollOffset >= 1200) {
             anchor.addClass("anchor_fixed");
         } else {
             anchor.removeClass("anchor_fixed");
