@@ -113,6 +113,33 @@ p {
   }
 }
 
+.red_btn {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 35px;
+  background: #ff304e;
+  border: 0;
+  outline: 0;
+  width: 240px;
+  height: 70px;
+  border-radius: 46.5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  -webkit-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.red_btn:hover {
+  background: #ff072b;
+}
+
+.red_btn:active {
+  background: #b00019;
+}
+
 .introfirst {
   background: url("../img/cool layout/water.jpg") center no-repeat;
   background-size: cover;
