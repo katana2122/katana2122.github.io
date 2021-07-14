@@ -113,33 +113,6 @@ p {
   }
 }
 
-.red_btn {
-  display: block;
-  margin: 0 auto;
-  padding: 20px 35px;
-  background: #ff304e;
-  border: 0;
-  outline: 0;
-  width: 240px;
-  height: 70px;
-  border-radius: 46.5px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 22px;
-  cursor: pointer;
-  -webkit-transition: background .3s linear;
-  transition: background .3s linear;
-}
-
-.red_btn:hover {
-  background: #ff072b;
-}
-
-.red_btn:active {
-  background: #b00019;
-}
-
 .introfirst {
   background: url("../img/cool layout/water.jpg") center no-repeat;
   background-size: cover;
@@ -198,6 +171,195 @@ p {
   color: #ffb7ff;
 }
 
+.animation_box {
+  width: 100px;
+  height: 100px;
+  background-color: #069e2c;
+  border-radius: 50%;
+  margin: 0 auto 100px;
+  opacity: .7;
+  position: relative;
+  -webkit-animation: title_animation 44s infinite alternate;
+          animation: title_animation 44s infinite alternate;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  display: none;
+}
+
+@-webkit-keyframes title_animation {
+  0% {
+    border-radius: 50%;
+    background-color: #069e2c;
+    left: 0;
+    top: -12px;
+  }
+  10% {
+    border-radius: 62% 38% 54% 46% / 41% 80% 20% 59%;
+    background-color: #0d6423;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+    left: 50px;
+  }
+  20% {
+    border-radius: 82% 18% 81% 19% / 50% 87% 13% 50%;
+    background-color: #df0d0d;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+    left: -50px;
+    top: -25px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  30% {
+    border-radius: 100% 0% 98% 2% / 25% 87% 13% 75%;
+    background-color: #ee6060;
+    left: 50px;
+    top: -45px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  40% {
+    border-radius: 13% 87% 72% 28% / 61% 17% 83% 39%;
+    background-color: #c737af;
+    left: -50px;
+    top: -55px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  50% {
+    border-radius: 60% 40% 98% 2% / 100% 52% 48% 0%;
+    background-color: #250286;
+    left: 50px;
+    top: -45px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  60% {
+    border-radius: 76% 24% 80% 20% / 47% 52% 48% 53%;
+    background-color: #0aaf99;
+    left: -50px;
+    top: -35px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  70% {
+    border-radius: 35% 65% 29% 71% / 47% 69% 31% 53%;
+    background-color: #363838;
+    left: 50px;
+    top: -20px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  80% {
+    border-radius: 52% 48% 72% 28% / 11% 69% 31% 89%;
+    background-color: #0004da;
+    left: -50px;
+    top: -15px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  90% {
+    border-radius: 50% 50% 72% 28% / 61% 53% 47% 39%;
+    background-color: #00dd00;
+    left: 50px;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    border-radius: 50%;
+    background-color: #407240;
+    left: 0px;
+  }
+}
+
+@keyframes title_animation {
+  0% {
+    border-radius: 50%;
+    background-color: #069e2c;
+    left: 0;
+    top: -12px;
+  }
+  10% {
+    border-radius: 62% 38% 54% 46% / 41% 80% 20% 59%;
+    background-color: #0d6423;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+    left: 50px;
+  }
+  20% {
+    border-radius: 82% 18% 81% 19% / 50% 87% 13% 50%;
+    background-color: #df0d0d;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+    left: -50px;
+    top: -25px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  30% {
+    border-radius: 100% 0% 98% 2% / 25% 87% 13% 75%;
+    background-color: #ee6060;
+    left: 50px;
+    top: -45px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  40% {
+    border-radius: 13% 87% 72% 28% / 61% 17% 83% 39%;
+    background-color: #c737af;
+    left: -50px;
+    top: -55px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  50% {
+    border-radius: 60% 40% 98% 2% / 100% 52% 48% 0%;
+    background-color: #250286;
+    left: 50px;
+    top: -45px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  60% {
+    border-radius: 76% 24% 80% 20% / 47% 52% 48% 53%;
+    background-color: #0aaf99;
+    left: -50px;
+    top: -35px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  70% {
+    border-radius: 35% 65% 29% 71% / 47% 69% 31% 53%;
+    background-color: #363838;
+    left: 50px;
+    top: -20px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  80% {
+    border-radius: 52% 48% 72% 28% / 11% 69% 31% 89%;
+    background-color: #0004da;
+    left: -50px;
+    top: -15px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  90% {
+    border-radius: 50% 50% 72% 28% / 61% 53% 47% 39%;
+    background-color: #00dd00;
+    left: 50px;
+    top: 0;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    border-radius: 50%;
+    background-color: #407240;
+    left: 0px;
+  }
+}
+
 @media (max-width: 996px) {
   .introfirst_title {
     font-size: 62px;
@@ -213,14 +375,23 @@ p {
 }
 
 @media (max-width: 776px) {
-  .beaty_btn_title {
+  .introfirst_box {
+    padding-top: 130px;
+  }
+  .introfirst_title {
     font-size: 50px;
     line-height: 80px;
     margin-bottom: 60px;
   }
+  .animation_box {
+    display: block;
+  }
 }
 
 @media (max-width: 600px) {
+  .introfirst_box {
+    padding-top: 100px;
+  }
   .introfirst_title {
     font-size: 36px;
     line-height: 55px;
@@ -236,14 +407,20 @@ p {
 }
 
 @media (max-width: 450px) {
+  .introfirst_box {
+    padding-top: 60px;
+  }
   .introfirst_title {
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
   }
   .introfirst_subtitle {
     font-size: 20px;
-    margin-bottom: 85px;
+    margin-bottom: 55px;
+  }
+  .animation_box {
+    margin-bottom: 30px;
   }
 }
 
