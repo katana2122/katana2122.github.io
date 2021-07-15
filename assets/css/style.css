@@ -171,8 +171,8 @@ p {
 }
 
 .ani_1 {
-  -webkit-animation: anim_1 25s ease-in-out infinite alternate;
-          animation: anim_1 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_1 20s linear infinite alternate;
+          animation: anim_1 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -250,36 +250,33 @@ p {
   }
   75% {
     top: -70px;
-    left: 25px;
+    left: -125px;
     background: #b4ff05;
   }
   80% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
+    top: -30px;
+    left: 88px;
+    background: #e513f8;
   }
   85% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
+    top: -22px;
+    left: -125px;
+    background: #91ad4d;
   }
   90% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -55px;
+    left: 108px;
+    background: #2058a1;
   }
   95% {
-    top: -60px;
-    left: 25px;
-    background: #b4ff05;
-    height: 15px;
+    top: -42px;
+    left: 66px;
+    background: #28e768;
   }
   100% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -103px;
+    left: -125px;
+    background: #828b6d;
   }
 }
 
@@ -356,42 +353,39 @@ p {
   }
   75% {
     top: -70px;
-    left: 25px;
+    left: -125px;
     background: #b4ff05;
   }
   80% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
+    top: -30px;
+    left: 88px;
+    background: #e513f8;
   }
   85% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
+    top: -22px;
+    left: -125px;
+    background: #91ad4d;
   }
   90% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -55px;
+    left: 108px;
+    background: #2058a1;
   }
   95% {
-    top: -60px;
-    left: 25px;
-    background: #b4ff05;
-    height: 15px;
+    top: -42px;
+    left: 66px;
+    background: #28e768;
   }
   100% {
-    top: -70px;
-    left: 25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -103px;
+    left: -125px;
+    background: #828b6d;
   }
 }
 
 .ani_2 {
-  -webkit-animation: anim_2 25s ease-in-out infinite alternate;
-          animation: anim_2 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_2 20s linear infinite alternate;
+          animation: anim_2 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -468,37 +462,34 @@ p {
     background: #421616;
   }
   75% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -107px;
+    left: -125px;
+    background: #435c0a;
   }
   80% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -60px;
+    left: 41px;
+    background: #0f41af;
   }
   85% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -11px;
+    left: 125px;
+    background: #ff1212;
   }
   90% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -44px;
+    left: 25px;
+    background: #11aabe;
   }
   95% {
-    top: -60px;
-    left: -25px;
-    background: #b4ff05;
-    height: 15px;
+    top: -19px;
+    left: -38px;
+    background: #1cc246;
   }
   100% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -99px;
+    left: 100px;
+    background: #8645a0;
   }
 }
 
@@ -574,43 +565,40 @@ p {
     background: #421616;
   }
   75% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -107px;
+    left: -125px;
+    background: #435c0a;
   }
   80% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -60px;
+    left: 41px;
+    background: #0f41af;
   }
   85% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
+    top: -11px;
+    left: 125px;
+    background: #ff1212;
   }
   90% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -44px;
+    left: 25px;
+    background: #11aabe;
   }
   95% {
-    top: -60px;
-    left: -25px;
-    background: #b4ff05;
-    height: 15px;
+    top: -19px;
+    left: -38px;
+    background: #1cc246;
   }
   100% {
-    top: -70px;
-    left: -25px;
-    background: #b4ff05;
-    height: 25px;
+    top: -99px;
+    left: 100px;
+    background: #8645a0;
   }
 }
 
 .ani_3 {
-  -webkit-animation: anim_3 25s ease-in-out infinite alternate;
-          animation: anim_3 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_3 20s linear infinite alternate;
+          animation: anim_3 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -687,34 +675,34 @@ p {
     background: #f700ff;
   }
   75% {
-    top: 22px;
-    left: -14px;
+    top: -122px;
+    left: -104px;
     background: #b4ff05;
   }
   80% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -22px;
+    left: -104px;
+    background: #15b646;
   }
   85% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -22px;
+    left: 104px;
+    background: #d6c208;
   }
   90% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -76px;
+    left: -44px;
+    background: #1b0301;
   }
   95% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -122px;
+    left: 14px;
+    background: #270083;
   }
   100% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -122px;
+    left: -104px;
+    background: #5e6353;
   }
 }
 
@@ -790,40 +778,40 @@ p {
     background: #f700ff;
   }
   75% {
-    top: 22px;
-    left: -14px;
+    top: -122px;
+    left: -104px;
     background: #b4ff05;
   }
   80% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -22px;
+    left: -104px;
+    background: #15b646;
   }
   85% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -22px;
+    left: 104px;
+    background: #d6c208;
   }
   90% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -76px;
+    left: -44px;
+    background: #1b0301;
   }
   95% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -122px;
+    left: 14px;
+    background: #270083;
   }
   100% {
-    top: 22px;
-    left: -14px;
-    background: #b4ff05;
+    top: -122px;
+    left: -104px;
+    background: #5e6353;
   }
 }
 
 .ani_4 {
-  -webkit-animation: anim_4 25s ease-in-out infinite alternate;
-          animation: anim_4 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_4 20s linear infinite alternate;
+          animation: anim_4 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -853,12 +841,11 @@ p {
   30% {
     top: -60px;
     left: 0px;
-    background: #b4ff05;
   }
   35% {
     top: -60px;
     left: -100px;
-    background: #838383;
+    background: #b4ff05;
   }
   40% {
     top: -90px;
@@ -896,30 +883,34 @@ p {
     background: #0066ff;
   }
   75% {
-    top: 16px;
-    left: -26px;
-    background: #b4ff05;
+    top: -16px;
+    left: 55px;
+    background: #0b097c;
   }
   80% {
-    top: 16px;
-    left: -26px;
+    top: -87px;
+    left: -126px;
+    background: #9b9aac;
   }
   85% {
-    top: 16px;
-    left: -26px;
+    top: -14px;
+    left: 126px;
+    background: #0ab83e;
   }
   90% {
-    top: 16px;
-    left: -26px;
+    top: 21px;
+    left: -69px;
+    background: #dbc70d;
   }
   95% {
-    top: 16px;
-    left: -26px;
+    top: -116px;
+    left: 101px;
+    background: #2320ff;
   }
   100% {
-    top: 16px;
-    left: -26px;
-    background: #b4ff05;
+    top: -66px;
+    left: -46px;
+    background: #30fddb;
   }
 }
 
@@ -948,12 +939,11 @@ p {
   30% {
     top: -60px;
     left: 0px;
-    background: #b4ff05;
   }
   35% {
     top: -60px;
     left: -100px;
-    background: #838383;
+    background: #b4ff05;
   }
   40% {
     top: -90px;
@@ -991,36 +981,40 @@ p {
     background: #0066ff;
   }
   75% {
-    top: 16px;
-    left: -26px;
-    background: #b4ff05;
+    top: -16px;
+    left: 55px;
+    background: #0b097c;
   }
   80% {
-    top: 16px;
-    left: -26px;
+    top: -87px;
+    left: -126px;
+    background: #9b9aac;
   }
   85% {
-    top: 16px;
-    left: -26px;
+    top: -14px;
+    left: 126px;
+    background: #0ab83e;
   }
   90% {
-    top: 16px;
-    left: -26px;
+    top: 21px;
+    left: -69px;
+    background: #dbc70d;
   }
   95% {
-    top: 16px;
-    left: -26px;
+    top: -116px;
+    left: 101px;
+    background: #2320ff;
   }
   100% {
-    top: 16px;
-    left: -26px;
-    background: #b4ff05;
+    top: -66px;
+    left: -46px;
+    background: #30fddb;
   }
 }
 
 .ani_5 {
-  -webkit-animation: anim_5 25s ease-in-out infinite alternate;
-          animation: anim_5 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_5 20s linear infinite alternate;
+          animation: anim_5 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -1092,30 +1086,34 @@ p {
     background: #ffffff;
   }
   75% {
-    top: 10px;
-    left: -35px;
-    background: #b4ff05;
+    top: -110px;
+    left: 35px;
+    background: #56fff7;
   }
   80% {
-    top: 10px;
-    left: -35px;
+    top: 20px;
+    left: -15px;
+    background: #0b2746;
   }
   85% {
-    top: 10px;
-    left: -35px;
+    top: -110px;
+    left: -135px;
+    background: #e73c3c;
   }
   90% {
-    top: 10px;
-    left: -35px;
+    top: -15px;
+    left: 55px;
+    background: #78ffa1;
   }
   95% {
-    top: 10px;
-    left: -35px;
+    top: -67px;
+    left: -105px;
+    background: #ffec7d;
   }
   100% {
-    top: 10px;
+    top: -110px;
     left: -35px;
-    background: #b4ff05;
+    background: #8c1cc0;
   }
 }
 
@@ -1186,36 +1184,40 @@ p {
     background: #ffffff;
   }
   75% {
-    top: 10px;
-    left: -35px;
-    background: #b4ff05;
+    top: -110px;
+    left: 35px;
+    background: #56fff7;
   }
   80% {
-    top: 10px;
-    left: -35px;
+    top: 20px;
+    left: -15px;
+    background: #0b2746;
   }
   85% {
-    top: 10px;
-    left: -35px;
+    top: -110px;
+    left: -135px;
+    background: #e73c3c;
   }
   90% {
-    top: 10px;
-    left: -35px;
+    top: -15px;
+    left: 55px;
+    background: #78ffa1;
   }
   95% {
-    top: 10px;
-    left: -35px;
+    top: -67px;
+    left: -105px;
+    background: #ffec7d;
   }
   100% {
-    top: 10px;
+    top: -110px;
     left: -35px;
-    background: #b4ff05;
+    background: #8c1cc0;
   }
 }
 
 .ani_6 {
-  -webkit-animation: anim_6 25s ease-in-out infinite alternate;
-          animation: anim_6 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_6 20s linear infinite alternate;
+          animation: anim_6 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -1287,30 +1289,34 @@ p {
     background: #9aa582;
   }
   75% {
-    top: 2px;
+    top: -2px;
     left: -43px;
-    background: #b4ff05;
+    background: #0f3bff;
   }
   80% {
-    top: 2px;
-    left: -43px;
+    top: -92px;
+    left: 73px;
+    background: #ffa277;
   }
   85% {
-    top: 2px;
-    left: -43px;
+    top: -17px;
+    left: -53px;
+    background: #823396;
   }
   90% {
-    top: 2px;
-    left: -43px;
+    top: -42px;
+    left: 93px;
+    background: #2f00ff;
   }
   95% {
-    top: 2px;
-    left: -43px;
+    top: -82px;
+    left: -93px;
+    background: #caddcb;
   }
   100% {
-    top: 2px;
-    left: -43px;
-    background: #b4ff05;
+    top: -12px;
+    left: 163px;
+    background: #331901;
   }
 }
 
@@ -1381,36 +1387,40 @@ p {
     background: #9aa582;
   }
   75% {
-    top: 2px;
+    top: -2px;
     left: -43px;
-    background: #b4ff05;
+    background: #0f3bff;
   }
   80% {
-    top: 2px;
-    left: -43px;
+    top: -92px;
+    left: 73px;
+    background: #ffa277;
   }
   85% {
-    top: 2px;
-    left: -43px;
+    top: -17px;
+    left: -53px;
+    background: #823396;
   }
   90% {
-    top: 2px;
-    left: -43px;
+    top: -42px;
+    left: 93px;
+    background: #2f00ff;
   }
   95% {
-    top: 2px;
-    left: -43px;
+    top: -82px;
+    left: -93px;
+    background: #caddcb;
   }
   100% {
-    top: 2px;
-    left: -43px;
-    background: #b4ff05;
+    top: -12px;
+    left: 163px;
+    background: #331901;
   }
 }
 
 .ani_7 {
-  -webkit-animation: anim_7 25s ease-in-out infinite alternate;
-          animation: anim_7 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_7 20s linear infinite alternate;
+          animation: anim_7 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -1482,30 +1492,34 @@ p {
     background: #0011ff;
   }
   75% {
-    top: -7px;
-    left: -50px;
-    background: #b4ff05;
+    top: -87px;
+    left: -150px;
+    background: #ff7e05;
   }
   80% {
-    top: -7px;
-    left: -50px;
+    top: -77px;
+    left: 150px;
+    background: #0414ff;
   }
   85% {
-    top: -7px;
+    top: -17px;
     left: -50px;
+    background: #ff0505;
   }
   90% {
-    top: -7px;
-    left: -50px;
+    top: -17px;
+    left: 150px;
+    background: #7512e7;
   }
   95% {
-    top: -7px;
-    left: -50px;
+    top: -97px;
+    left: -14px;
+    background: #ccff55;
   }
   100% {
-    top: -7px;
-    left: -50px;
-    background: #b4ff05;
+    top: -8px;
+    left: -99px;
+    background: #6045aa;
   }
 }
 
@@ -1576,36 +1590,40 @@ p {
     background: #0011ff;
   }
   75% {
-    top: -7px;
-    left: -50px;
-    background: #b4ff05;
+    top: -87px;
+    left: -150px;
+    background: #ff7e05;
   }
   80% {
-    top: -7px;
-    left: -50px;
+    top: -77px;
+    left: 150px;
+    background: #0414ff;
   }
   85% {
-    top: -7px;
+    top: -17px;
     left: -50px;
+    background: #ff0505;
   }
   90% {
-    top: -7px;
-    left: -50px;
+    top: -17px;
+    left: 150px;
+    background: #7512e7;
   }
   95% {
-    top: -7px;
-    left: -50px;
+    top: -97px;
+    left: -14px;
+    background: #ccff55;
   }
   100% {
-    top: -7px;
-    left: -50px;
-    background: #b4ff05;
+    top: -8px;
+    left: -99px;
+    background: #6045aa;
   }
 }
 
 .ani_8 {
-  -webkit-animation: anim_8 25s ease-in-out infinite alternate;
-          animation: anim_8 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_8 20s linear infinite alternate;
+          animation: anim_8 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -1677,30 +1695,34 @@ p {
     background: #66695d;
   }
   75% {
-    top: 23px;
-    left: 12px;
-    background: #b4ff05;
+    top: -123px;
+    left: 72px;
+    background: #e29b18;
   }
   80% {
-    top: 23px;
-    left: 12px;
+    top: -123px;
+    left: -12px;
+    background: #6391c5;
   }
   85% {
-    top: 23px;
-    left: 12px;
+    top: -23px;
+    left: 112px;
+    background: #8d0707;
   }
   90% {
-    top: 23px;
-    left: 12px;
+    top: -23px;
+    left: -112px;
+    background: #130814;
   }
   95% {
-    top: 23px;
+    top: -103px;
     left: 12px;
+    background: #6299a3;
   }
   100% {
-    top: 23px;
-    left: 12px;
-    background: #b4ff05;
+    top: -73px;
+    left: -122px;
+    background: #4d2504;
   }
 }
 
@@ -1771,36 +1793,40 @@ p {
     background: #66695d;
   }
   75% {
-    top: 23px;
-    left: 12px;
-    background: #b4ff05;
+    top: -123px;
+    left: 72px;
+    background: #e29b18;
   }
   80% {
-    top: 23px;
-    left: 12px;
+    top: -123px;
+    left: -12px;
+    background: #6391c5;
   }
   85% {
-    top: 23px;
-    left: 12px;
+    top: -23px;
+    left: 112px;
+    background: #8d0707;
   }
   90% {
-    top: 23px;
-    left: 12px;
+    top: -23px;
+    left: -112px;
+    background: #130814;
   }
   95% {
-    top: 23px;
+    top: -103px;
     left: 12px;
+    background: #6299a3;
   }
   100% {
-    top: 23px;
-    left: 12px;
-    background: #b4ff05;
+    top: -73px;
+    left: -122px;
+    background: #4d2504;
   }
 }
 
 .ani_9 {
-  -webkit-animation: anim_9 25s ease-in-out infinite alternate;
-          animation: anim_9 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_9 20s linear infinite alternate;
+          animation: anim_9 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -1838,7 +1864,7 @@ p {
   }
   40% {
     top: -22px;
-    left: -82px;
+    left: -182px;
     background: #2772ff;
   }
   45% {
@@ -1848,7 +1874,7 @@ p {
   }
   50% {
     top: -60px;
-    left: -62px;
+    left: -162px;
     background: #003a52;
   }
   55% {
@@ -1863,7 +1889,7 @@ p {
   }
   65% {
     top: -55px;
-    left: -72px;
+    left: -172px;
     background: #312902;
   }
   70% {
@@ -1872,30 +1898,34 @@ p {
     background: #67148d;
   }
   75% {
-    top: 17px;
-    left: 23px;
-    background: #b4ff05;
+    top: -117px;
+    left: -128px;
+    background: #2331ff;
   }
   80% {
-    top: 17px;
-    left: 23px;
+    top: -17px;
+    left: 123px;
+    background: #06e219;
   }
   85% {
-    top: 17px;
+    top: -117px;
     left: 23px;
+    background: #ac0000;
   }
   90% {
-    top: 17px;
-    left: 23px;
+    top: -17px;
+    left: -173px;
+    background: #02eeff;
   }
   95% {
-    top: 17px;
-    left: 23px;
+    top: -117px;
+    left: -163px;
+    background: #dd49a4;
   }
   100% {
-    top: 17px;
-    left: 23px;
-    background: #b4ff05;
+    top: 62px;
+    left: 55px;
+    background: #06187a;
   }
 }
 
@@ -1932,7 +1962,7 @@ p {
   }
   40% {
     top: -22px;
-    left: -82px;
+    left: -182px;
     background: #2772ff;
   }
   45% {
@@ -1942,7 +1972,7 @@ p {
   }
   50% {
     top: -60px;
-    left: -62px;
+    left: -162px;
     background: #003a52;
   }
   55% {
@@ -1957,7 +1987,7 @@ p {
   }
   65% {
     top: -55px;
-    left: -72px;
+    left: -172px;
     background: #312902;
   }
   70% {
@@ -1966,36 +1996,40 @@ p {
     background: #67148d;
   }
   75% {
-    top: 17px;
-    left: 23px;
-    background: #b4ff05;
+    top: -117px;
+    left: -128px;
+    background: #2331ff;
   }
   80% {
-    top: 17px;
-    left: 23px;
+    top: -17px;
+    left: 123px;
+    background: #06e219;
   }
   85% {
-    top: 17px;
+    top: -117px;
     left: 23px;
+    background: #ac0000;
   }
   90% {
-    top: 17px;
-    left: 23px;
+    top: -17px;
+    left: -173px;
+    background: #02eeff;
   }
   95% {
-    top: 17px;
-    left: 23px;
+    top: -117px;
+    left: -163px;
+    background: #dd49a4;
   }
   100% {
-    top: 17px;
-    left: 23px;
-    background: #b4ff05;
+    top: 62px;
+    left: 55px;
+    background: #06187a;
   }
 }
 
 .ani_10 {
-  -webkit-animation: anim_10 25s ease-in-out infinite alternate;
-          animation: anim_10 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_10 20s linear infinite alternate;
+          animation: anim_10 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -2057,40 +2091,44 @@ p {
     background: #0d2758;
   }
   65% {
-    top: -55px;
+    top: 0px;
     left: -72px;
     background: #a15a1f;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: 100px;
     background: #23b4a1;
   }
   75% {
-    top: 12px;
-    left: 29px;
-    background: #b4ff05;
+    top: -12px;
+    left: 129px;
+    background: #023629;
   }
   80% {
-    top: 12px;
-    left: 29px;
+    top: -42px;
+    left: -129px;
+    background: #3b3808;
   }
   85% {
-    top: 12px;
-    left: 29px;
+    top: -12px;
+    left: 79px;
+    background: #a00093;
   }
   90% {
-    top: 12px;
-    left: 29px;
+    top: -142px;
+    left: -179px;
+    background: #3bff76;
   }
   95% {
-    top: 12px;
-    left: 29px;
+    top: -12px;
+    left: 60px;
+    background: #27111f;
   }
   100% {
-    top: 12px;
-    left: 29px;
-    background: #b4ff05;
+    top: -102px;
+    left: -39px;
+    background: #2401a1;
   }
 }
 
@@ -2151,46 +2189,50 @@ p {
     background: #0d2758;
   }
   65% {
-    top: -55px;
+    top: 0px;
     left: -72px;
     background: #a15a1f;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: 100px;
     background: #23b4a1;
   }
   75% {
-    top: 12px;
-    left: 29px;
-    background: #b4ff05;
+    top: -12px;
+    left: 129px;
+    background: #023629;
   }
   80% {
-    top: 12px;
-    left: 29px;
+    top: -42px;
+    left: -129px;
+    background: #3b3808;
   }
   85% {
-    top: 12px;
-    left: 29px;
+    top: -12px;
+    left: 79px;
+    background: #a00093;
   }
   90% {
-    top: 12px;
-    left: 29px;
+    top: -142px;
+    left: -179px;
+    background: #3bff76;
   }
   95% {
-    top: 12px;
-    left: 29px;
+    top: -12px;
+    left: 60px;
+    background: #27111f;
   }
   100% {
-    top: 12px;
-    left: 29px;
-    background: #b4ff05;
+    top: -102px;
+    left: -39px;
+    background: #2401a1;
   }
 }
 
 .ani_11 {
-  -webkit-animation: anim_11 25s ease-in-out infinite alternate;
-          animation: anim_11 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_11 20s linear infinite alternate;
+          animation: anim_11 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -2257,35 +2299,39 @@ p {
     background: #3b2700;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: 100px;
     background: #6cc9ff;
   }
   75% {
-    top: 6px;
-    left: 35px;
-    background: #b4ff05;
+    top: -6px;
+    left: -75px;
+    background: #089950;
   }
   80% {
-    top: 6px;
-    left: 35px;
+    top: -17px;
+    left: -95px;
+    background: #800e8f;
   }
   85% {
-    top: 6px;
-    left: 35px;
+    top: -56px;
+    left: -135px;
+    background: #0621bb;
   }
   90% {
-    top: 6px;
-    left: 35px;
+    top: 12px;
+    left: 135px;
+    background: #7254a1;
   }
   95% {
-    top: 6px;
-    left: 35px;
+    top: -99px;
+    left: -135px;
+    background: #257a73;
   }
   100% {
-    top: 6px;
-    left: 35px;
-    background: #b4ff05;
+    top: -41px;
+    left: 166px;
+    background: #9b20ec;
   }
 }
 
@@ -2351,41 +2397,45 @@ p {
     background: #3b2700;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: 100px;
     background: #6cc9ff;
   }
   75% {
-    top: 6px;
-    left: 35px;
-    background: #b4ff05;
+    top: -6px;
+    left: -75px;
+    background: #089950;
   }
   80% {
-    top: 6px;
-    left: 35px;
+    top: -17px;
+    left: -95px;
+    background: #800e8f;
   }
   85% {
-    top: 6px;
-    left: 35px;
+    top: -56px;
+    left: -135px;
+    background: #0621bb;
   }
   90% {
-    top: 6px;
-    left: 35px;
+    top: 12px;
+    left: 135px;
+    background: #7254a1;
   }
   95% {
-    top: 6px;
-    left: 35px;
+    top: -99px;
+    left: -135px;
+    background: #257a73;
   }
   100% {
-    top: 6px;
-    left: 35px;
-    background: #b4ff05;
+    top: -41px;
+    left: 166px;
+    background: #9b20ec;
   }
 }
 
 .ani_12 {
-  -webkit-animation: anim_12 25s ease-in-out infinite alternate;
-          animation: anim_12 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_12 20s linear infinite alternate;
+          animation: anim_12 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -2457,30 +2507,34 @@ p {
     background: #03ad5e;
   }
   75% {
-    top: 2px;
-    left: 39px;
-    background: #b4ff05;
+    top: -2px;
+    left: 139px;
+    background: #1229ff;
   }
   80% {
-    top: 2px;
-    left: 39px;
+    top: -92px;
+    left: -41px;
+    background: #d4ff70;
   }
   85% {
-    top: 2px;
-    left: 39px;
+    top: -42px;
+    left: 155px;
+    background: #ffaaaa;
   }
   90% {
-    top: 2px;
-    left: 39px;
+    top: -14px;
+    left: -169px;
+    background: #c58307;
   }
   95% {
-    top: 2px;
-    left: 39px;
+    top: -152px;
+    left: 69px;
+    background: #202006;
   }
   100% {
-    top: 2px;
-    left: 39px;
-    background: #b4ff05;
+    top: -22px;
+    left: -19px;
+    background: #0400d8;
   }
 }
 
@@ -2551,36 +2605,40 @@ p {
     background: #03ad5e;
   }
   75% {
-    top: 2px;
-    left: 39px;
-    background: #b4ff05;
+    top: -2px;
+    left: 139px;
+    background: #1229ff;
   }
   80% {
-    top: 2px;
-    left: 39px;
+    top: -92px;
+    left: -41px;
+    background: #d4ff70;
   }
   85% {
-    top: 2px;
-    left: 39px;
+    top: -42px;
+    left: 155px;
+    background: #ffaaaa;
   }
   90% {
-    top: 2px;
-    left: 39px;
+    top: -14px;
+    left: -169px;
+    background: #c58307;
   }
   95% {
-    top: 2px;
-    left: 39px;
+    top: -152px;
+    left: 69px;
+    background: #202006;
   }
   100% {
-    top: 2px;
-    left: 39px;
-    background: #b4ff05;
+    top: -22px;
+    left: -19px;
+    background: #0400d8;
   }
 }
 
 .ani_13 {
-  -webkit-animation: anim_13 25s ease-in-out infinite alternate;
-          animation: anim_13 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_13 20s linear infinite alternate;
+          animation: anim_13 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -2652,30 +2710,34 @@ p {
     background: #169b05;
   }
   75% {
-    top: -7px;
-    left: 45px;
-    background: #b4ff05;
+    top: -57px;
+    left: 145px;
+    background: #06ff97;
   }
   80% {
-    top: -7px;
-    left: 45px;
+    top: -57px;
+    left: -145px;
+    background: #000000;
   }
   85% {
-    top: -7px;
+    top: -97px;
     left: 45px;
+    background: #1a0f03;
   }
   90% {
-    top: -7px;
-    left: 45px;
+    top: -97px;
+    left: 145px;
+    background: #74a306;
   }
   95% {
     top: -7px;
-    left: 45px;
+    left: -155px;
+    background: #040849;
   }
   100% {
-    top: -7px;
-    left: 45px;
-    background: #b4ff05;
+    top: -147px;
+    left: 64px;
+    background: #ff3a3a;
   }
 }
 
@@ -2746,36 +2808,40 @@ p {
     background: #169b05;
   }
   75% {
-    top: -7px;
-    left: 45px;
-    background: #b4ff05;
+    top: -57px;
+    left: 145px;
+    background: #06ff97;
   }
   80% {
-    top: -7px;
-    left: 45px;
+    top: -57px;
+    left: -145px;
+    background: #000000;
   }
   85% {
-    top: -7px;
+    top: -97px;
     left: 45px;
+    background: #1a0f03;
   }
   90% {
-    top: -7px;
-    left: 45px;
+    top: -97px;
+    left: 145px;
+    background: #74a306;
   }
   95% {
     top: -7px;
-    left: 45px;
+    left: -155px;
+    background: #040849;
   }
   100% {
-    top: -7px;
-    left: 45px;
-    background: #b4ff05;
+    top: -147px;
+    left: 64px;
+    background: #ff3a3a;
   }
 }
 
 .ani_14 {
-  -webkit-animation: anim_14 25s ease-in-out infinite alternate;
-          animation: anim_14 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_14 20s linear infinite alternate;
+          animation: anim_14 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -2842,35 +2908,39 @@ p {
     background: #1cc483;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: -100px;
     background: #2603be;
   }
   75% {
     top: -24px;
-    left: 1px;
-    background: #b4ff05;
+    left: 111px;
+    background: #d3aeae;
   }
   80% {
-    top: -24px;
-    left: 1px;
+    top: -74px;
+    left: -121px;
+    background: #007f96;
   }
   85% {
-    top: -24px;
-    left: 1px;
+    top: -84px;
+    left: 111px;
+    background: #0c0e08;
   }
   90% {
-    top: -24px;
+    top: -44px;
     left: 1px;
+    background: #ffe600;
   }
   95% {
     top: -24px;
-    left: 1px;
+    left: -143px;
+    background: #00227e;
   }
   100% {
-    top: -24px;
-    left: 1px;
-    background: #b4ff05;
+    top: -124px;
+    left: 113px;
+    background: #352513;
   }
 }
 
@@ -2936,41 +3006,45 @@ p {
     background: #1cc483;
   }
   70% {
-    top: -33px;
+    top: -133px;
     left: -100px;
     background: #2603be;
   }
   75% {
     top: -24px;
-    left: 1px;
-    background: #b4ff05;
+    left: 111px;
+    background: #d3aeae;
   }
   80% {
-    top: -24px;
-    left: 1px;
+    top: -74px;
+    left: -121px;
+    background: #007f96;
   }
   85% {
-    top: -24px;
-    left: 1px;
+    top: -84px;
+    left: 111px;
+    background: #0c0e08;
   }
   90% {
-    top: -24px;
+    top: -44px;
     left: 1px;
+    background: #ffe600;
   }
   95% {
     top: -24px;
-    left: 1px;
+    left: -143px;
+    background: #00227e;
   }
   100% {
-    top: -24px;
-    left: 1px;
-    background: #b4ff05;
+    top: -124px;
+    left: 113px;
+    background: #352513;
   }
 }
 
 .ani_15 {
-  -webkit-animation: anim_15 25s ease-in-out infinite alternate;
-          animation: anim_15 25s ease-in-out infinite alternate;
+  -webkit-animation: anim_15 20s linear infinite alternate;
+          animation: anim_15 20s linear infinite alternate;
   -webkit-transition: 2.2s;
   transition: 2.2s;
 }
@@ -3043,29 +3117,33 @@ p {
   }
   75% {
     top: 25px;
-    left: 0px;
-    background: #b4ff05;
+    left: -110px;
+    background: #090e00;
   }
   80% {
-    top: 25px;
-    left: 0px;
+    top: -125px;
+    left: 110px;
+    background: #00ff00;
   }
   85% {
-    top: 25px;
+    top: -25px;
     left: 0px;
+    background: #839c49;
   }
   90% {
-    top: 25px;
-    left: 0px;
+    top: -25px;
+    left: 80px;
+    background: #423903;
   }
   95% {
-    top: 25px;
-    left: 0px;
+    top: -85px;
+    left: -80px;
+    background: #d192e0;
   }
   100% {
-    top: 25px;
-    left: 0px;
-    background: #b4ff05;
+    top: -25px;
+    left: 150px;
+    background: #51534a;
   }
 }
 
@@ -3137,33 +3215,37 @@ p {
   }
   75% {
     top: 25px;
-    left: 0px;
-    background: #b4ff05;
+    left: -110px;
+    background: #090e00;
   }
   80% {
-    top: 25px;
-    left: 0px;
+    top: -125px;
+    left: 110px;
+    background: #00ff00;
   }
   85% {
-    top: 25px;
+    top: -25px;
     left: 0px;
+    background: #839c49;
   }
   90% {
-    top: 25px;
-    left: 0px;
+    top: -25px;
+    left: 80px;
+    background: #423903;
   }
   95% {
-    top: 25px;
-    left: 0px;
+    top: -85px;
+    left: -80px;
+    background: #d192e0;
   }
   100% {
-    top: 25px;
-    left: 0px;
-    background: #b4ff05;
+    top: -25px;
+    left: 150px;
+    background: #51534a;
   }
 }
 
-@media (max-width: 776px) {
+@media (max-width: 996px) {
   .animation_box_wrap {
     display: block;
   }
