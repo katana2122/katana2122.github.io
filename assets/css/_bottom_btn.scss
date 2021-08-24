@@ -1,0 +1,55 @@
+.bottom_btn {
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    z-index: 9;
+
+    width: 35px;
+    height: 35px;
+    background: #ffd4d4;
+    border-radius: 50%;
+    cursor: pointer;
+
+
+    visibility: hidden;
+
+
+}
+
+.bottom_btn_item {
+
+    position: relative;
+    top: 12px;
+    left: 9px;
+    width: 17px;
+    height: 17px;
+    border-top: 3px solid #6d12ff;
+    border-left: 3px solid #6d12ff;
+
+    opacity: .1;
+
+    transform: rotate(45deg);
+
+    transition: opacity .3s linear;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.bottom_btn_true {
+
+    visibility: visible;
+    animation: bottom_btn_anim 1s linear;
+
+    @keyframes bottom_btn_anim {
+        0% {
+            transform: translateX(100px);
+
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+}

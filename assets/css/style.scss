@@ -1,0 +1,49 @@
+@import url("../fonts/PTSerif-Regular");
+/* font-family: 'PT Serif', serif;*/
+@import url("../fonts/Lora-Regular");
+/* font-family: 'Lora', serif; */
+@import url("../fonts/Oswald-Medium");
+/*font-family: 'Oswald', sans-serif;*/
+@import url("../fonts/Raleway-Regular");
+/*font-family: 'Raleway', sans-serif;*/
+@import url("../fonts/OpenSans-Regular.ttf");
+/* font-family: 'Open Sans', sans-serif; */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@import "bottom_btn";
+@import "burger";
+@import "header";
+@import "intro";
+@import "section";
+@import "about";
+@import "skils";
+@import "portfolio";
+@import "contact";
+@import "footer";

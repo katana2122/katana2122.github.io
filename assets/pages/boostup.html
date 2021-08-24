@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- <meta name="keywords" content="">
+    <meta name="description" content=""> -->
+    <link rel="stylesheet" href="../css/swiper.css">
+    <link rel="stylesheet" href="../css/boostUp.css">
+
+    <link rel="shortcut icon" href="../img/boost%20up/header_logo.png" type="image/png">
+
+    <title>BOOST UP</title>
+</head>
+
+<body>
+    <svg style="display: none;">
+
+        <symbol id="tweeter" viewbox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                    C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+        </symbol>
+
+        <symbol id="facebook" viewbox="0 0 24 24">
+            <path
+                d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+        </symbol>
+
+        <symbol id="google" viewbox="0 0 604.35 604.35">
+            <path d="M516.375,255v-76.5h-51V255h-76.5v51h76.5v76.5h51V306h76.5v-51H516.375z M320.025,341.7l-28.051-20.4
+			c-10.2-7.649-20.399-17.85-20.399-35.7s12.75-33.15,25.5-40.8c33.15-25.5,66.3-53.55,66.3-109.65c0-53.55-33.15-84.15-51-99.45
+			h43.35l30.6-35.7h-158.1c-112.2,0-168.3,71.4-168.3,147.9c0,58.65,45.9,122.4,127.5,122.4h20.4c-2.55,7.65-10.2,20.4-10.2,33.15
+			c0,25.5,10.2,35.7,22.95,51c-35.7,2.55-102,10.2-150.45,40.8c-45.9,28.05-58.65,66.3-58.65,94.35
+			c0,58.65,53.55,114.75,168.3,114.75c137.7,0,204.001-76.5,204.001-150.449C383.775,400.35,355.725,372.3,320.025,341.7z
+			 M126.225,109.65c0-56.1,33.15-81.6,68.85-81.6c66.3,0,102,89.25,102,140.25c0,66.3-53.55,79.05-73.95,79.05
+			C159.375,247.35,126.225,168.3,126.225,109.65z M218.024,568.65c-84.15,0-137.7-38.25-137.7-94.351c0-56.1,51-73.95,66.3-81.6
+			c33.15-10.2,76.5-12.75,84.15-12.75s12.75,0,17.85,0c61.2,43.35,86.7,61.2,86.7,102C335.324,530.4,286.875,568.65,218.024,568.65z
+			" />
+        </symbol>
+
+        <symbol id="linkedin" viewbox="0 0 24 24">
+            <path
+                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+            <path
+                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+        </symbol>
+    </svg>
+    <div class="page">
+        <!-- header -->
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header_inner">
+                    <a href="#" class="header_logo" data-scroll="#intro">
+                        <img src="../img/boost%20up/header_logo.png" alt="logo">
+                    </a>
+                    <nav class="nav" id="nav">
+                        <a href="#" class="nav_link active" data-scroll="#intro">Home</a>
+                        <a href="#" class="nav_link" data-scroll="#service">Service</a>
+                        <a href="#" class="nav_link" data-scroll="#about">About us</a>
+                        <a href="#" class="nav_link" data-scroll="#price">Pricing Table</a>
+                        <a href="#" class="nav_link" data-scroll="#how">How it work</a>
+                        <a href="#" class="nav_link" data-scroll="#clients">Happy Clients</a>
+                        <a href="#" class="nav_link" data-scroll="#letter">Contact Us</a>
+                    </nav>
+                    <button class="burger" type="button" id="navToggle" title="menu">
+                        <span class="burger__item">Menu</span>
+                    </button>
+                </div><!-- header_inner -->
+            </div><!--  container-->
+        </header><!-- header -->
+        <!-- intro -->
+        <div class="intro" id="intro">
+            <div class="intro_backround">
+                <div class="container">
+                    <h1 class="intro_title">Boost up your Local business</h1>
+                    <p class="intro_subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry.
+                        Lorem Ipsum typesetting</p>
+
+                    <form action="#" method="POST" class="intro_form">
+
+                        <div class="intro_form_wrapper">
+                            <input type="text" class="intro_form_item intro_form_name" name="intro_form_name"
+                                placeholder="Full Name">
+                            <img class="intro_form_icon" src="../img/boost%20up/intro_icon_name.png" alt="icon_name">
+                        </div>
+
+                        <div class="intro_form_wrapper"> <input type="email" class="intro_form_item intro_form_email"
+                                name="intro_form_email" placeholder="Email Address">
+                            <img class="intro_form_icon" src="../img/boost%20up/intro_icon_email.png" alt="icon_email">
+                        </div>
+
+                        <div class="intro_form_wrapper">
+                            <input type="tel" class="intro_form_item intro_form_tel" name="intro_form_tel"
+                                placeholder="Phone Number">
+                            <img class="intro_form_icon" src="../img/boost%20up/intro_icon_phone.png" alt="icon_phone">
+                        </div>
+
+                        <div class="intro_form_wrapper">
+                            <input type="submit" class="intro_form_submit" name="intro_form_submit"
+                                value="Request a quote">
+                        </div>
+
+                    </form>
+                    <div class="intro_carusel">
+                        <div class="swiper-container_intro">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide intro_slide">
+                                    <img src="../img/boost%20up/Laptop.png" alt="">
+                                </div>
+                                <div class="swiper-slide intro_slide">
+                                    <img src="../img/boost%20up/Laptop.png" alt="">
+                                </div>
+                                <div class="swiper-slide intro_slide">
+                                    <img src="../img/boost%20up/Laptop.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-pagination_intro"></div>
+                        </div>
+                    </div><!-- intro_carusel -->
+                </div><!-- container -->
+            </div><!-- intro_backround -->
+
+        </div><!-- intro -->
+        <div class="fixed_btn" id="fixed_btn" data-scroll="#intro">
+            <div class="fixed_btn_wrap"></div>
+        </div>
+        <!-- services -->
+        <section class="section" id="service">
+            <div class="container">
+                <div class="section_title_text service_text">
+                    <h3 class="section_title">Our Services</h3>
+                    <p class="section_subtitle">Lorem Ipsum is simply dummy Business industry.</p>
+                </div>
+                <div class="services_inner">
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_1.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Font-Awesome Icons</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_2.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Fully Responsive Design</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_3.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Working Contact form</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_4.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Retina Ready icons here</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_5.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Friendly Code</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                    <div class="services_item">
+                        <div class="services_item_icon">
+                            <img src="../img/boost%20up/services_item_icon_6.png" alt="">
+                        </div>
+                        <h5 class="serveces_item_title">Flat trendy landing page Design</h5>
+                        <p class="serveces_item_text">Lorem Ipsum is simply dummy text of the printing and
+                            typesetting
+                            ind
+                            ustry. Lorem Ipsum has been the industry's standard dummy text ever
+                            since the 1500s, when an unknown printer.</p>
+                    </div>
+
+                </div><!-- services_inner -->
+            </div><!-- container -->
+        </section><!-- services -->
+        <!-- about -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about_inner">
+                    <div class="about_img">
+                        <img src="../img/boost%20up/about.jpg" alt="photo">
+                    </div>
+                    <div class="about_text">
+                        <div class="section_title_text">
+                            <h3 class="section_title text_about">Our Services</h3>
+                            <p class="section_subtitle text_about">Lorem Ipsum is simply dummy text of the printing
+                                and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen
+                                book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting, remaining essentially unchanged. It was popularised in the ore recently
+                                with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum
+                            </p>
+
+                        </div>
+                        <button class="about_btn">Read more</button>
+                    </div><!-- about_text -->
+                </div><!-- about_inner -->
+            </div><!-- container -->
+        </section>
+        <!--about  -->
+        <!-- price -->
+        <section class="price" id="price">
+            <div class="container">
+                <div class="section_title_text text_price">
+                    <h3 class="section_title">Choos your price</h3>
+                    <p class="section_subtitle">Lorem Ipsum is simply dummy text of the printing typesetting</p>
+                </div>
+                <div class="price_inner">
+                    <div class="price_item price_short_first">
+                        <h6 class="price_title">Basic plan</h6>
+                        <div class="price_subtitle">22</div>
+                        <div class="price_discription">per month</div>
+                        <div class="price_accounts">1 Account</div>
+                        <div class="price_hours">8 hour support</div>
+                        <div class="price_cloud">Custom Cloud Services</div>
+                        <button class="price_btn">Get Started</button>
+                    </div>
+                    <div class="price_item longer_item">
+                        <h6 class="price_title">Premium plan</h6>
+                        <div class="price_subtitle">42</div>
+                        <div class="price_discription">per month</div>
+                        <div class="price_accounts">2 Account</div>
+                        <div class="price_hours">100MB Storage</div>
+                        <div class="price_cloud">Custom Cloud Services</div>
+                        <button class="price_btn">Get Started</button>
+                    </div>
+                    <div class="price_item price_short_second">
+                        <h6 class="price_title">Gold plan</h6>
+                        <div class="price_subtitle">62</div>
+                        <div class="price_discription">per month</div>
+                        <div class="price_accounts">8 Account</div>
+                        <div class="price_hours">24 hour support</div>
+                        <div class="price_cloud">Custom Cloud Services</div>
+                        <button class="price_btn">Get Started</button>
+                    </div>
+
+                </div><!-- price_inner -->
+            </div><!-- container -->
+        </section><!-- price -->
+        <!-- how -->
+        <section class="how" id="how">
+            <div class="container">
+                <div class="section_title_text ">
+                    <h3 class="section_title">How it works</h3>
+                    <p class="section_subtitle">Lorem Ipsum is simply dummy Business industry</p>
+                </div>
+                <div class="steps">
+                    <div class="steps_item steps_item--arrow_down">
+                        <div class="step_icon">
+                            <img src="../img/boost%20up/step_1.png" alt="icon">
+                        </div>
+                        <h6 class="step_title">Step 1</h6>
+                        <div class="step_text">Lorem Ipsum is simply dummy text of the printing and typesetting ind
+                            ustry. Lorem Ipsum has been</div>
+                    </div>
+
+                    <div class="steps_item steps_item--arrow_up">
+                        <div class="step_icon">
+                            <img src="../img/boost%20up/step_2.png" alt="icon">
+                        </div>
+                        <h6 class="step_title">Step 2</h6>
+                        <div class="step_text">Lorem Ipsum is simply dummy text of the printing and typesetting ind
+                            ustry. Lorem Ipsum has been</div>
+                    </div>
+
+                    <div class="steps_item steps_item--arrow_down">
+                        <div class="step_icon">
+                            <img src="../img/boost%20up/step_3.png" alt="icon">
+                        </div>
+                        <h6 class="step_title">Step 3</h6>
+                        <div class="step_text">Lorem Ipsum is simply dummy text of the printing and typesetting ind
+                            ustry. Lorem Ipsum has been</div>
+                    </div>
+
+                    <div class="steps_item">
+                        <div class="step_icon">
+                            <img src="../img/boost%20up/step_4.png" alt="icon">
+                        </div>
+                        <h6 class="step_title">Step 4</h6>
+                        <div class="step_text">Lorem Ipsum is simply dummy text of the printing and typesetting ind
+                            ustry. Lorem Ipsum has been</div>
+                    </div>
+                </div>
+                <!--steps  -->
+                <button class="how_btn">Get start Now</button>
+            </div><!-- container -->
+        </section><!-- how -->
+        <!-- clients -->
+        <section class="clients" id="clients">
+            <div class="container">
+                <div class="section_title_text clients_text">
+                    <h3 class="section_title">Happy Clients</h3>
+                    <p class="section_subtitle">We are explain who is using our business solutions</p>
+                </div>
+
+                <div class="clients_inner">
+                    <div class="clients_item">
+                        <div class="client_photo">
+                            <img src="../img/boost%20up/client_1.png" alt="photo">
+                        </div>
+                        <div class="client_text">
+                            <p class="client_rewiev">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry standard dummy text ever since the
+                                1500s,
+                                when an unknown printer took a galley of type and scrambled
+                                it to make.</p>
+                            <div class="client_author">Darwin Michle, <span class="client_prof">Project
+                                    manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clients_item">
+                        <div class="client_photo">
+                            <img src="../img/boost%20up/client_2.png" alt="photo">
+                        </div>
+                        <div class="client_text">
+                            <p class="client_rewiev">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry standard dummy text ever since the
+                                1500s,
+                                when an unknown printer took a galley of type and scrambled
+                                it to make.</p>
+                            <div class="client_author">Madam Elisabath, <span class="client_prof">Creative
+                                    Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clients_item">
+                        <div class="client_photo">
+                            <img src="../img/boost%20up/client_3.png" alt="photo">
+                        </div>
+                        <div class="client_text">
+                            <p class="client_rewiev">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry standard dummy text ever since the
+                                1500s,
+                                when an unknown printer took a galley of type and scrambled
+                                it to make.</p>
+                            <div class="client_author">Clips arter, <span class="client_prof">Lipsum directer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clients_item">
+                        <div class="client_photo">
+                            <img src="../img/boost%20up/client_4.png" alt="photo">
+                        </div>
+                        <div class="client_text">
+                            <p class="client_rewiev">Lorem Ipsum is simply dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry standard dummy text ever since the
+                                1500s,
+                                when an unknown printer took a galley of type and scrambled
+                                it to make.</p>
+                            <div class="client_author">zam cristafr, <span class="client_prof">manager</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- clients_inner -->
+            </div><!-- container -->
+        </section><!-- clients -->
+        <!-- letter -->
+        <section class="letter" id="letter">
+            <div class="container">
+                <div class="section_title_text">
+                    <h3 class="section_title">newsletter</h3>
+                    <p class="section_subtitle">Lorem Ipsum is simply dummy Business industry</p>
+                </div>
+                <form class="letter_form" action="/" method="POST">
+                    <div class="letter_input_wrapper">
+                        <img class="letter_icon" src="../img/boost%20up/intro_icon_name.png" alt="icon">
+                        <input class="letter_input" type="text" placeholder="Name">
+                    </div>
+
+                    <div class="letter_input_wrapper">
+                        <img class="letter_icon" src="../img/boost%20up/intro_icon_email.png" alt="icon">
+                        <input class="letter_input" type="email" placeholder="Email Address">
+                    </div>
+
+                    <div class="letter_input_wrapper">
+                        <button class="letter_btn" type="submit">Subscribe now</button>
+                    </div>
+
+
+                </form><!-- letter_form -->
+                <div class="map">
+                    <div class="map_adress">
+
+                        <h6 class="adress_title">Address</h6>
+                        <address class="map_adress_item">Business street</address>
+                        <address class="map_adress_item">Second north sectiont</address>
+                        <address class="map_adress_item">Bavani nagar. 88769</address>
+                        <a class="map_tel" href="tel:+9879976999">Call : +987-9976-999</a>
+                        <a class="map_mail" href="mailto:info@businessface.com">info@businessface.com</a>
+
+                    </div>
+                    <div class="map_icon">
+                        <img src="../img/boost%20up/header_logo.png" alt="icon">
+                    </div>
+
+                </div><!-- map -->
+
+
+            </div><!-- container -->
+        </section><!-- letter -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="sait_map">
+                    <a href="#" class="sait_map_link">Home</a>
+                    <a href="#" class="sait_map_link">Service</a>
+                    <a href="#" class="sait_map_link">About us</a>
+                    <a href="#" class="sait_map_link">Pricing Table</a>
+                    <a href="#" class="sait_map_link">How it work</a>
+                    <a href="#" class="sait_map_link">Happy Clients</a>
+                    <a href="#" class="sait_map_link">Contact Us</a>
+                </div>
+                <div class="footer_tel_wrapper">
+                    <img class="footer_tel_icon" src="../img/boost%20up/mobile.png" alt="icon">
+                    <a class="footer_tel" href="tel:+9879976999
+                ">+987 9976 999</a>
+                </div>
+                <div class="social_box">
+                    <a class="social_box_link" href="#" target="_blank">
+                        <svg class="social_link">
+                            <use xlink:href="#tweeter"></use>
+                        </svg>
+                    </a>
+                    <a class="social_box_link" href="#" target="_blank">
+                        <svg class="social_link">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social_box_link" href="#" target="_blank">
+                        <svg class="social_link">
+                            <use xlink:href="#google"></use>
+                        </svg>
+                    </a>
+                    <a class="social_box_link" href="#" target="_blank">
+                        <svg class="social_link">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div><!-- social_box -->
+            </div><!-- container -->
+            <div class="copy_box">All contents © copyright 2014 Business Theme. All rights reserved Designed by :
+                akhilwebfolio</div>
+        </footer><!-- footer -->
+    </div><!-- page -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/swiper.js"></script>
+    <script src="../js/boostUp.js"></script>
+</body>
+
+</html>

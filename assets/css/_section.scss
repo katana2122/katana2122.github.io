@@ -1,0 +1,114 @@
+.section {
+    background: #fdfaed;
+    padding-top: 35px;
+}
+
+.section_title {
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+
+    width: 300px;
+    margin: 0 auto 75px;
+
+    position: relative;
+
+    &:before {
+        display: block;
+        content: "";
+        width: 350px;
+        height: 1px;
+        background-color: #00000053;
+        position: absolute;
+        top: 29px;
+        left: -280px;
+        z-index: 1;
+    }
+
+    &:after {
+        display: block;
+        content: "";
+        width: 350px;
+        height: 1px;
+        background-color: #00000053;
+        position: absolute;
+        top: 29px;
+        left: 230px;
+        z-index: 1;
+    }
+
+}
+
+@media (max-width: 996px) {
+    .section_title {
+        margin-bottom: 30px;
+    }
+
+    .section_title {
+        &:before {
+            width: 250px;
+            height: 1px;
+            top: 29px;
+        }
+
+        &:after {
+            width: 250px;
+            height: 1px;
+            top: 29px;
+        }
+    }
+}
+
+@media (max-width: 776px) {
+
+    .section_title {
+        &:before {
+            width: 125px;
+            height: 1px;
+            top: 29px;
+        }
+
+        &:after {
+            width: 125px;
+            height: 1px;
+            top: 29px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .section_title {
+        &:before {
+            width: 55px;
+            height: 1px;
+            top: 29px;
+        }
+
+        &:after {
+            width: 55px;
+            height: 1px;
+            top: 29px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .section_title {
+        &:before {
+            display: none;
+        }
+
+        &:after {
+            display: none;
+        }
+    }
+
+}
+
+@media (max-width:319px) {
+    .section_title {
+        width: 100%;
+        font-size: 26px;
+    }
+}

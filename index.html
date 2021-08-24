@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лазурейкис Михаил</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/me_sait_img/icon.png" type="image/png">
+</head>
+<body>
+    <div class="bottom_btn" id="bottom_btn" href="#intro">
+        <div class="bottom_btn_item"></div>
+    </div>  
+    <div class="intro" id="intro">
+        <div class="container">
+            <header class="header">
+                <div class="header_box">
+                    <h1 class="logo">
+                        <img src="assets/img/me_sait_img/logo.png" alt="logo">
+                    </h1>
+                    <nav class="nav" id="nav">
+                        <ul>
+                            <li><a href="#intro">главная</a></li>
+                            <li><a href="#about">обо мне</a></li>
+                            <li><a href="#works">портфолио</a></li>
+                            <li><a href="#contacts">связь со мной</a></li>       
+                        </ul>            
+                    </nav>
+                    <div id="hamburger" class="hamburglar">
+
+                        <div class="burger-icon">
+                          <div class="burger-container">
+                            <span class="burger-bun-top"></span>
+                            <span class="burger-filling"></span>
+                            <span class="burger-bun-bot"></span>
+                          </div>
+                        </div>
+                        
+                        <!-- svg ring containter -->
+                        <div class="burger-ring">
+                          <svg class="svg-ring">
+                              <path class="path" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4" d="M 34 2 C 16.3 2 2 16.3 2 34 s 14.3 32 32 32 s 32 -14.3 32 -32 S 51.7 2 34 2" />
+                          </svg>
+                        </div>
+                        <!-- the masked path that animates the fill to the ring -->
+                        
+                             <svg width="0" height="0">
+                           <mask id="mask">
+                        <path xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#ff0000" stroke-miterlimit="10" stroke-width="4" d="M 34 2 c 11.6 0 21.8 6.2 27.4 15.5 c 2.9 4.8 5 16.5 -9.4 16.5 h -4" />
+                           </mask>
+                         </svg>
+                        <div class="path-burger">
+                          <div class="animate-path">
+                            <div class="path-rotation"></div>
+                          </div>
+                        </div>       
+                      </div><!-- hamburger -->
+                </div><!-- header_box -->
+            </header>
+            <div class="intro_box">
+                <p class="intro_box_suptetle">Здравствуйте, я </p>
+                <h2 class="intro_box_title">Лазурейкис Михаил</h2>
+                <p class="intro_box_subtetle">front-end разработчик</p>
+            </div>
+        </div><!-- container -->    
+    </div><!-- intro -->
+    <section class="section" id="about">
+        <div class="container">
+            <h3 class="section_title section_title_about">обо мне</h3>
+            <div class="about_box">
+                <div class="about_text_box">
+                    <p class="about_text_box_text">Приветствую Вас на&nbsp;своем сайте-портфолио. Меня зовут Михаил. Мне 24&nbsp;года. Живу в&nbsp;Новосибирской области. Пришел к&nbsp;верстке сайтов случайно, я&nbsp;изучал язык программирования python, язык показался мне интересным и&nbsp;легким, однако я&nbsp;решил разнообразить свои знания. Думал между геймдевом и&nbsp;веб-разработкой, последнее мне настолько понравилось, что я&nbsp;по-итогу решил только этим и&nbsp;заниматься. Прошел курсы от&nbsp;Udemy, GeekBrains и&nbsp;BrainsCloud, регулярно обновляю свои знания не&nbsp;по&nbsp;программам обучения, а&nbsp;просто читая IT-статьи или просматривая тематические видео. Стараюсь быть в&nbsp;курсе всех обновлений и&nbsp;изменений. Всегда внимательно просматриваю код, стараясь не&nbsp;оставлять ошибок/багов/просто бесполезных строк. Очень люблю процесс верстки, могу практически ни&nbsp;на&nbsp;что не&nbsp;отвлекаясь верстать долгими часами напролет, забыв про еду или даже сон. Очень люблю что-то придумывать. Считаю себя перфекционистом, стараюсь все сделать максимально аккуратно и&nbsp;красиво. Также я&nbsp;очень ответственный. Я&nbsp;могу оставить на&nbsp;потом какой-нибудь баг или не&nbsp;критическую ошибку, но&nbsp;я&nbsp;всегда к&nbsp;этому возвращаюсь и&nbsp;никогда ничего не&nbsp;спускаю на&nbsp;самотек, даже если ошибка незначительна и&nbsp;ни&nbsp;на&nbsp;что толком не&nbsp;влияет.</p>
+                </div>
+                <div class="about_img">
+                    <img src="assets/img/me_sait_img/me.png" alt="me">
+                </div>
+                
+            </div>
+        </div><!-- container --> 
+    </section> <!-- about -->
+    <section class="section">
+        <div class="container">
+            <h3 class="section_title section_title_skils">мои навыки</h3>
+            <div class="skils_box">
+                <div class="skils_box_item">
+                    <div class="skils_box_item_icon">
+                        <img src="assets/img/me_sait_img/html.svg" alt="html">
+                    </div>
+                    <h6 class="skils_box_item_title">html</h6>
+                    <p class="skils_box_item_text">Основа основ. С&nbsp;его помощью я&nbsp;сделаю &laquo;скелет&raquo; сайта. Пишу валидный, кроссбраузерный код с&nbsp;использованием БЭМ. Применяю семантические теги. В&nbsp;верстке оставляю комментарии, чтобы проще было ориентироваться по&nbsp;коду.</p>
+                </div>
+                <div class="skils_box_item">
+                    <div class="skils_box_item_icon">
+                        <img src="assets/img/me_sait_img/css-3.svg" alt="css">
+                    </div>
+                    <h6 class="skils_box_item_title">css</h6>
+                    <p class="skils_box_item_text">Стили сайта. С&nbsp;его помощью сделаю ваш сайт красивым. В&nbsp;процессе верстки использую препроцессор SCSS (Sass не&nbsp;очень нравится из-за структуры как в&nbsp;python, со&nbsp;скобками как-то приятнее и&nbsp;привычнее). Умею делать интересные анимации на&nbsp;чистом CSS.</p>
+                </div>
+                <div class="skils_box_item">
+                    <div class="skils_box_item_icon">
+                        <img src="assets/img/me_sait_img/java-script.svg" alt="js">
+                    </div>
+                    <h6 class="skils_box_item_title">js</h6>
+                    <p class="skils_box_item_text">Логика сайта. С&nbsp;его помощью, я&nbsp;вдохну жизнь в&nbsp;интерактивные элементы сайта. Знаком с&nbsp;новыми стандартами и&nbsp;наиболее популярными фреймворками. Использовал для своих работ Jquery, активно изучаю Vue.js.</p>
+                </div>
+                <div class="skils_box_item">
+                    <div class="skils_box_item_icon">
+                        <img src="assets/img/me_sait_img/repair-tools.svg" alt="repair">
+                    </div>
+                    <h6 class="skils_box_item_title">инструменты</h6>
+                    <p class="skils_box_item_text">Отлично владею главным инструментом&nbsp;&mdash; редактором кода. Я&nbsp;использую&nbsp;VS code. Также владею сборщиком GULP, однако не&nbsp;использую его из-за отсутствия необходимости (в&nbsp;редакторе кода Scss сам автоматически ставит префиксы и&nbsp;компилирует в&nbsp;live режиме css файл), но&nbsp;при необходимости буду использовать его или Webpack. Также знаком с&nbsp;Bootstrap.</p>
+                </div>
+                <div class="skils_box_item">
+                    <div class="skils_box_item_icon">
+                        <img src="assets/img/me_sait_img/light.svg" alt="dop">
+                    </div>
+                    <h6 class="skils_box_item_title">дополнительно</h6>
+                    <p class="skils_box_item_text">Помимо того, что связано напрямую с&nbsp;версткой, я&nbsp;умею правильно гуглить. Также уже давно владею Adobe Photoshop. Знаком с&nbsp;Git. Имею учетную запись на&nbsp;GitHub. Помимо всего прочего, я&nbsp;очень быстро обучаюсь. Если работаю в&nbsp;коллективе, всегда готов прийти на&nbsp;помощь, редко когда кому-то отказываю в&nbsp;ней.</p>
+                </div>
+            </div><!-- skils_box -->
+           
+        </div><!-- container -->   
+    </section><!-- skils -->
+
+    <section class="section" id="works">
+        <div class="container">
+            <h3 class="section_title section_title_works">портфолио</h3> 
+            <p class="works_text">Здесь можно посмотреть некоторые мои примеры работ</p>
+            <div class="works_box">
+                <div class="works_item">
+                    <h6 class="works_item_title">ActiveBox</h6>
+                    <div class="works_item_img">
+                        <img class="works_item_img_img" center src="assets/img/me_sait_img/ActiveBox.jpg" alt="ActiveBox">
+                        <p class="works_item_text">красивый одностраничный лендинг с активной навигацией по сайту и простым слайдером. Макет к данному сайту, несмотря на популярность, достаточно интересный, поэтому я не смог пройти мимо него.</p>
+                    </div> 
+                    <a class="works_item_link" href="assets/pages/ActiveBox.html" target="_blank">Посмотреть</a>
+                </div><!-- works_item -->
+                <div class="works_item">
+                    <h6 class="works_item_title">Boost Up</h6>
+                    <div class="works_item_img">
+                        <img class="works_item_img_img" center src="assets/img/me_sait_img/BoostUp.jpg" alt="Boost up">
+                        <p class="works_item_text">Отличный пример красивого лендинга для бизнеса. Здесь есть и активная навигация по разделам сайта, и обычный слайдер, а также добавлены поля для ввода информации о клиенте.</p>
+                    </div> 
+                    <a class="works_item_link" href="assets/pages/boostup.html" target="_blank">Посмотреть</a>
+                </div><!-- works_item -->
+                <div class="works_item">
+                    <h6 class="works_item_title">Waxom</h6>
+                    <div class="works_item_img">
+                        <img class="works_item_img_img" center src="assets/img/me_sait_img/Waxom.jpg" alt="Waxom">
+                        <p class="works_item_text">Еще один пример красивого сайта для бизнеса. Тут уже чуть больше всего — это и видео (не для мобильных версий), и фильтрация картинок по категориям, и слайдер с кнопками. Сделана в ознакомительных целях, только главная страница, однако задумка тут понятна-это интересный многостраничный сайт.</p>
+                    </div> 
+                    <a class="works_item_link" href="assets/pages/waxom.html" target="_blank">Посмотреть</a>
+                </div><!-- works_item -->
+                <div class="works_item">
+                    <h6 class="works_item_title">MoGo</h6>
+                    <div class="works_item_img">
+                        <img class="works_item_img_img" center src="assets/img/me_sait_img/MoGo.jpg" alt="MoGo">
+                        <p class="works_item_text">На мой взгляд — это один из самых красивых сайтов. Казалось бы — обычный одностраничный лэндинг, но почти каждый элемент сделан с особым вниманием. На сайте есть: активная навигация по сайту, интересный эффект при наведении на картинки, необычные аккордеон панели, пара простых слайдеров. В общем всего понемногу, но смотрится отлично!</p>
+                    </div> 
+                    <a class="works_item_link" href="assets/pages/mogo.html" target="_blank">Посмотреть</a>
+                </div><!-- works_item -->
+            </div><!-- works_box -->
+
+        </div><!-- container -->   
+    </section><!-- works -->
+
+    <section class="section" id="contacts">
+        <div class="container">
+            <h3 class="section_title section_title_contact">связь со мной</h3>
+            <p class="contact_title">Для связи со мной заполните форму ниже</p>
+            <form class="form" action="" method="post" id="form">
+                <div class="form_name_and_email">
+                    <input class="form_name" id="form_name" type="text" name="name" placeholder="Введите ваше имя">
+                    <input class="form_email" id="form_mail" type="email" name="email" placeholder="Введите вашу почту" pattern="([a-zA-Z0-9]+@+[a-zA-Z0-9]+.+[a-zA-Z0-9]+">
+                </div>  
+                <textarea class="form_text" name="textarea" id="textarea" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                <input class="form_btn" id="form_btn" type="submit" value="отправить">
+            </form>
+            <h3 class="section_title section_title_contacts">мои контакты</h3>
+            <div class="links_box">
+                <div class="link_box_item">
+                    <a href="mailto:lordgachi69@gmail.com">lordgachi69@gmail.com</a></div>
+                <div class="link_box_item">
+                    <a href="tel:+79513877587">+79513877587</a>
+                    </div>
+                <div class="link_box_item">
+                    <div class="link_box_item_box">
+                        <div class="link_box_item_box_item">
+                            <a href="https://t.me/lazurejkis_mihail" target="_blank" rel="noopener noreferrer">
+                                <svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" fill="#039be5" r="12"/><path d="m5.491 11.74 11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z" fill="#fff"/></svg>
+                            </a>   
+                        </div><!-- link_box_item_box_item -->
+                        <div class="link_box_item_box_item">
+                            <a href="https://vk.com/gerodin_24" target="_blank" rel="noopener noreferrer">
+                                <svg class="vk" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="548.358px" height="548.358px" viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;"
+                                    xml:space="preserve">
+                                <g>
+                                    <path d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+                                        l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+                                        c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+                                        l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+                                        c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+                                        c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+                                        c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+                                        c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+                                        c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+                                        c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+                                        c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+                                        c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+                                        c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+                                        c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+                                        c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+                                        c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+                                        c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+                                        c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+                                        c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+                                        c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+                                        C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+                                        c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+                                        c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+                                        c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+                                        c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+                                        c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+                                        c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+                                        c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+                                        l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+                                        c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+                                        C546.782,404.25,546.115,401.725,545.451,400.298z"/>
+                                </g>
+                                </svg>
+                            </a>   
+                        </div><!--link_box_item_box_item  -->
+                        <div class="link_box_item_box_item">
+                            <a href="https://github.com/katana2122" target="_blank" rel="noopener noreferrer">
+                                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="568.034px" height="568.034px" viewBox="0 0 568.034 568.034" style="enable-background:new 0 0 568.034 568.034;"
+                                    xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M550.99,0H17.051C8.948,0,2.381,6.567,2.381,14.67v538.694c0,8.104,6.567,14.67,14.67,14.67h177.498v-0.129
+                                            c8.011-0.092,14.149-4.577,14.431-12.166c0.728-19.725,0.214-39.492,0.214-58.562c-14.296,0.667-27.944,2.473-41.438,1.695
+                                            c-29.762-1.714-52.632-14.413-64.493-43.556c-7.026-17.265-17.613-32.032-34.101-41.886c-3.079-1.842-5.771-4.554-8.127-7.308
+                                            c-3.079-3.592-2.503-7.282,2.362-8.268c4.908-0.998,10.27-1.695,15.11-0.79c19.009,3.568,32.154,15.49,42.216,31.347
+                                            c19.896,31.371,50.521,40.974,84.976,26.487c1.921-0.808,4.363-2.766,4.725-4.553c2.778-13.887,7.968-26.549,18.427-37.65
+                                            c-11.628-2.154-22.399-3.739-32.962-6.188c-30.417-7.038-57.742-19.7-77.724-44.848c-16.303-20.514-23.758-44.528-27.185-70.086
+                                            c-5.367-40.031-0.563-77.503,26.928-109.493c1.389-1.616,2.142-4.927,1.524-6.94c-6.885-22.497-5.833-44.805,0.991-67.051
+                                            c3.581-11.683,4.578-12.265,16.5-10.637c0.729,0.098,1.438,0.281,2.161,0.404c23.898,3.954,44.468,15.526,64.731,27.95
+                                            c2.724,1.671,6.873,2.711,9.866,1.983c48.397-11.744,96.702-11.695,145.093,0.043c2.809,0.679,6.561-0.288,9.247-1.695
+                                            c11.016-5.759,21.561-12.454,32.718-17.914c12.98-6.346,26.652-11.12,41.371-10.857c2.576,0.049,6.561,2.509,7.423,4.786
+                                            c8.856,23.464,10.723,47.375,3.666,71.794c-0.753,2.607,0.367,6.322,1.769,8.892c6.965,12.779,16.689,24.572,21.096,38.127
+                                            c13.434,41.316,8.538,82.229-9.749,121.06c-16.757,35.594-47.834,53.63-84.621,62.933c-12.424,3.14-25.153,5.049-38.556,7.681
+                                            c17.564,18.348,20.318,40.74,20.006,64.192c-0.324,24.192-0.238,48.391-0.251,72.589c-0.006,11.72,5.11,18.195,14.039,18.574
+                                            c-0.006,0.037,188.723,0.037,188.723,0.037V14.67C565.653,6.567,559.087,0,550.99,0z"/>
+                                    </g>
+                                </svg>
+                            </a>   
+                        </div><!--link_box_item_box_item  -->
+                    </div>
+                </div>
+            </div>             
+        </div><!-- container -->   
+    </section><!-- contact -->
+    <footer class="footer">
+        <p class="footer_text">
+            Copyright © Лазурейкис Михаил 2021г.
+        </p>
+    </footer>
+    
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/scrpt.js"></script>
+</body>
+</html>

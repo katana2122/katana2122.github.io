@@ -1,0 +1,148 @@
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.6);
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav ul li {
+    display: block;
+    margin-right: 35px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+
+    transition: border-bottom 0.3s linear;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &:hover {
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+    }
+
+    &:active {
+        border-bottom: 2px solid rgb(99, 99, 99);
+    }
+}
+
+.nav ul li a {
+    font-family: 'PT Serif', serif;
+    font-size: 24px;
+    text-decoration: none;
+    color: #353535;
+
+    transition: color .3s linear;
+
+    &:hover {
+        color: #000;
+    }
+}
+
+
+.hamburglar {
+    display: none;
+}
+
+@media (max-width:996px) {
+
+    .nav ul li {
+        margin-right: 30px;
+    }
+
+    .nav ul li a {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:776px) {
+
+    .header_box {
+        position: relative;
+    }
+
+    .nav {
+        opacity: 0;
+        transition: opasity .5s linear;
+        display: none;
+    }
+
+    .hamburglar {
+        display: block;
+    }
+
+    .active_nav {
+        display: block;
+        opacity: 1;
+        position: absolute;
+
+        top: 66px;
+        left: 0;
+        z-index: 1;
+
+        animation: op .4s linear;
+    }
+
+    @keyframes op {
+        0% {
+            left: -250px;
+            opacity: 0;
+        }
+
+        50% {
+            opacity: .3;
+        }
+
+        100% {
+            left: 0;
+            opacity: 1;
+        }
+
+    }
+
+    .nav ul li a {
+        font-size: 26px;
+        line-height: 2;
+    }
+
+}
+
+@media (max-width:600px) {
+
+    .active_nav {
+        left: -25px;
+    }
+
+    .active_nav ul {
+        display: flex;
+        flex-direction: column;
+        animation: op .7s linear;
+    }
+}
+
+@media (max-width:440px) {
+    .nav ul li a {
+        font-size: 26px;
+        line-height: 1.2;
+        color: #481d1d;
+    }
+
+}
+
+@media (orientation: landscape) and (max-height: 450px) {
+
+    .active_nav ul {
+        display: flex;
+        flex-direction: row;
+        animation: op .7s linear;
+    }
+
+    .nav ul li a {
+        font-size: 22px;
+        line-height: 2;
+    }
+}

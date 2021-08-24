@@ -1,0 +1,168 @@
+.intro {
+    background: url('../img/me_sait_img/intro_bg.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 25px;
+
+}
+
+.intro_box {
+    margin-top: 350px;
+    margin-left: 40px;
+}
+
+.intro_box_suptetle {
+    font-size: 32px;
+    font-family: 'Lora', serif;
+    color: #0c0c0c;
+
+    margin-bottom: 15px;
+}
+
+.intro_box_title {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #000;
+
+    margin-bottom: 15px;
+}
+
+.intro_box_subtetle {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: #212121;
+}
+
+@media (max-width:996px) {
+    .intro_box {
+        margin-top: 300px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:776px) {
+    .intro {
+        background: url('../img/me_sait_img/bs2.jpg') center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 100vh;
+        padding-top: 25px;
+
+    }
+}
+
+
+
+@media (max-width:500px) {
+
+
+    .intro_box {
+        margin-top: 285px;
+        margin-left: 0px;
+    }
+
+    .intro_box_suptetle {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .intro_box_title {
+        font-size: 46px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width:440px) {
+    .intro_box {
+        width: 200px;
+        margin-top: 165px;
+        margin-left: 0px;
+    }
+
+
+
+    .intro_box_suptetle {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .intro_box_title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .intro_box_subtetle {
+        font-size: 27px;
+        font-family: Raleway, sans-serif;
+        color: rgb(33, 33, 33);
+    }
+
+}
+
+@media (max-width:360px) {
+    .intro_box {
+        margin-top: 160px;
+        margin-left: 0px;
+    }
+
+
+
+}
+
+@media (orientation: landscape) and (max-height: 450px) {
+    .intro {
+        background: url('../img/me_sait_img/bg-land.jpg') center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 450px;
+        padding-top: 25px;
+    }
+
+    .intro_box {
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .nav ul li a {
+        font-size: 22px;
+        line-height: 2;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 350px) {
+    .intro {
+        background: url('../img/me_sait_img/bg-land.jpg') center no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 450px;
+        padding-top: 25px;
+    }
+
+    .intro_box {
+        margin-top: 80px;
+        margin-left: 0;
+    }
+
+    .nav ul li a {
+        font-size: 22px;
+        line-height: 2;
+    }
+
+    .intro_box_suptetle {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .intro_box_title {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .intro_box_subtetle {
+        font-size: 27px;
+        font-family: Raleway, sans-serif;
+        color: rgb(33, 33, 33);
+    }
+}
