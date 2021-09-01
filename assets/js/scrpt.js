@@ -63,6 +63,7 @@ $(function () {
             error_mes = $('#error_mes');
 
             $('.error_mes').remove();
+            $('.correct_mes').remove();
             $('#form_name').removeClass("error_border");
             $('#form_mail').removeClass("error_border");
             $('#textarea').removeClass("error_border");

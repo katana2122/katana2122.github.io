@@ -133,7 +133,16 @@
 
 }
 
+@media (orientation: landscape) and (max-height: 600px) {
+
+    .nav ul li a {
+        font-size: 22px;
+        line-height: 2;
+    }
+}
+
 @media (orientation: landscape) and (max-height: 450px) {
+
 
     .active_nav ul {
         display: flex;
@@ -142,7 +151,15 @@
     }
 
     .nav ul li a {
-        font-size: 22px;
-        line-height: 2;
+        font-size: 20px;
+        line-height: 1;
+    }
+}
+
+
+@media (max-width: 240px) {
+    .nav ul li a {
+        font-size: 14px;
+        line-height: 1.2;
     }
 }

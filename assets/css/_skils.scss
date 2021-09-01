@@ -23,9 +23,14 @@
     text-align: center;
     margin-right: 35px;
 
-    &:last-child {
+    &:nth-child(3) {
         margin-right: 0;
     }
+
+    &:nth-child(5) {
+        margin-right: 0;
+    }
+
 }
 
 .skils_box_item_icon img {
@@ -51,7 +56,7 @@
 @media (max-width: 996px) {
     .section_title_skils {
         &:before {
-            left: -133px;
+            left: -207px;
         }
 
         &:after {
@@ -118,18 +123,4 @@
         }
     }
 
-}
-
-@media (orientation: landscape) and (max-height: 450px) {
-
-    .active_nav ul {
-        display: flex;
-        flex-direction: row;
-        animation: op .7s linear;
-    }
-
-    .nav ul li a {
-        font-size: 22px;
-        line-height: 2;
-    }
 }
