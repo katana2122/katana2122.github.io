@@ -43,7 +43,6 @@
     }
 }
 
-
 .hamburglar {
     display: none;
 }
@@ -79,11 +78,9 @@
         display: block;
         opacity: 1;
         position: absolute;
-
         top: 66px;
         left: 0;
         z-index: 1;
-
         animation: op .4s linear;
     }
 
@@ -101,7 +98,6 @@
             left: 0;
             opacity: 1;
         }
-
     }
 
     .nav ul li a {

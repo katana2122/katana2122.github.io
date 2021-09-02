@@ -120,7 +120,7 @@ $(function () {
 
             else{
               e.preventDefault();
-              $('#textarea').after('<div class="correct_mes">все заполненно верно-в будущем эта кнопка отправит ваше сообщение мне на почту</div>');
+              $('#textarea').after('<div class="correct_mes">все заполнено верно-в будущем эта кнопка отправит ваше сообщение мне на почту</div>');
             }
           });
 

@@ -4,9 +4,6 @@ $blue: inherit; // background color
 $animation: 0.7s; // animation speed
 $scale: 1; // icon scale 68/68 default
 
-
-
-
 .hamburglar {
     transform: scale($scale);
     position: relative;
@@ -88,7 +85,6 @@ $scale: 1; // icon scale 68/68 default
 // offset moves
 // dasharray is the dash size
 // need to be able to control dash space size.
-
 .hamburglar.is-open {
     .path {
         animation: dash-in $animation linear normal;
@@ -147,8 +143,6 @@ $scale: 1; // icon scale 68/68 default
     }
 }
 
-
-
 // All good burgers need filling!
 
 .burger-icon {
@@ -193,10 +187,6 @@ $scale: 1; // icon scale 68/68 default
     top: 12px;
 }
 
-
-
-
-
 // burger ring container
 .burger-ring {
     position: absolute;
@@ -210,7 +200,6 @@ $scale: 1; // icon scale 68/68 default
     width: 68px;
     height: 68px;
 }
-
 
 // bun animations 
 .hamburglar.is-open {
@@ -285,29 +274,28 @@ $scale: 1; // icon scale 68/68 default
     }
 }
 
-
 @keyframes bun-top-in {
     0% {
         left: -5px;
-        bot: 0;
+        bottom: 0;
         transform: rotate(-45deg);
     }
 
     20% {
         left: -5px;
-        bot: 0;
+        bottom: 0;
         transform: rotate(-60deg);
     }
 
     80% {
         left: 0;
-        bot: 0;
+        bottom: 0;
         transform: rotate(15deg);
     }
 
     100% {
         left: 0;
-        bot: 1px;
+        bottom: 1px;
         transform: rotate(0deg);
     }
 }
@@ -320,13 +308,13 @@ $scale: 1; // icon scale 68/68 default
 
     20% {
         left: -5px;
-        bot: 0;
+        bottom: 0;
         transform: rotate(60deg);
     }
 
     80% {
         left: 0;
-        bot: 0;
+        bottom: 0;
         transform: rotate(-15deg);
     }
 
@@ -335,7 +323,6 @@ $scale: 1; // icon scale 68/68 default
         transform: rotate(0deg);
     }
 }
-
 
 // burger filling
 .hamburglar.is-open {

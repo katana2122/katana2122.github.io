@@ -8,10 +8,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-align: center;
-
     width: 300px;
     margin: 0 auto 75px;
-
     position: relative;
 
     &:before {
@@ -37,7 +35,6 @@
         left: 230px;
         z-index: 1;
     }
-
 }
 
 @media (max-width: 996px) {
@@ -61,7 +58,6 @@
 }
 
 @media (max-width: 776px) {
-
     .section_title {
         &:before {
             width: 125px;

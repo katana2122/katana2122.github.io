@@ -4,7 +4,6 @@
     background-attachment: fixed;
     height: 100vh;
     padding-top: 25px;
-
 }
 
 .intro_box {
@@ -16,7 +15,6 @@
     font-size: 32px;
     font-family: 'Lora', serif;
     color: #0c0c0c;
-
     margin-bottom: 15px;
 }
 
@@ -25,7 +23,6 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     color: #000;
-
     margin-bottom: 15px;
 }
 
@@ -49,7 +46,6 @@
         background-attachment: scroll;
         height: 100vh;
         padding-top: 25px;
-
     }
 }
 
@@ -73,8 +69,6 @@
 
 
 @media (max-width:540px) {
-
-
     .intro_box {
         margin-top: 285px;
         margin-left: 0px;
@@ -101,7 +95,6 @@
         margin-top: 165px;
         margin-left: 0px;
     }
-
 }
 
 @media (orientation: landscape) and (max-height: 600px) {
@@ -119,9 +112,7 @@
     }
 }
 
-
 @media (orientation: landscape) and (max-height: 450px) {
-
     .intro {
         background: url('../img/me_sait_img/bg-land.jpg') center no-repeat;
         background-size: cover;
@@ -136,11 +127,7 @@
     }
 }
 
-
-
-
 @media (max-width:480px) and (max-height: 900px) {
-
     .intro_box_suptetle {
         font-size: 24px;
         margin-bottom: 5px;
@@ -189,19 +176,14 @@
     }
 }
 
-
-
-
 @media (max-width:360px) {
     .intro_box {
         margin-top: 160px;
         margin-left: 0px;
     }
-
 }
 
 @media (max-width:350px) {
-
     .intro_box_suptetle {
         font-size: 20px;
         margin-bottom: 5px;
@@ -220,7 +202,6 @@
 }
 
 @media (max-width:350px) {
-
     .intro_box_suptetle {
         font-size: 20px;
         margin-bottom: 5px;
@@ -235,7 +216,6 @@
     .intro_box_subtetle {
         font-size: 24px;
     }
-
 }
 
 @media (max-width: 240px) {

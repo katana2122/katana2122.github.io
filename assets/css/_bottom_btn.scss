@@ -1,23 +1,18 @@
 .bottom_btn {
+    display: block;
     position: fixed;
     bottom: 5px;
     right: 15px;
     z-index: 9;
-
     width: 35px;
     height: 35px;
-    background: #ffeaea;
+    background: #dcc2c2;
     border-radius: 50%;
     cursor: pointer;
-
-
     visibility: hidden;
-
-
 }
 
 .bottom_btn_item {
-
     position: relative;
     top: 12px;
     left: 9px;
@@ -25,11 +20,8 @@
     height: 17px;
     border-top: 3px solid #9772d2;
     border-left: 3px solid #9772d2;
-
-    opacity: .1;
-
+    opacity: .3;
     transform: rotate(45deg);
-
     transition: opacity .3s linear;
 
     &:hover {
@@ -38,14 +30,12 @@
 }
 
 .bottom_btn_true {
-
     visibility: visible;
     animation: bottom_btn_anim 1s linear;
 
     @keyframes bottom_btn_anim {
         0% {
             transform: translateX(100px);
-
         }
 
         100% {

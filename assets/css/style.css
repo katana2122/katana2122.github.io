@@ -1,3 +1,20 @@
+@charset "UTF-8";
+/*  CSS MAP*/
+/*
+1: ШРИФТЫ
+2: ОБЩИЕ НАСТРОЙКИ
+3: НАСТРОЙКИ КНОПКИ ЯКОРЯ
+4: НАСТРОЙКА БУРГЕР МЕНЮ
+5: НАСТРОЙКА ШАПКИ
+6: НАСТРОЙКА ТИТУЛЬНОЙ СТРАНИЦЫ
+7: ОБЩИЕ НАСТРОЙКИ СЕКЦИЙ
+8: НАСТРОЙКА БЛОКА ОБО МНЕ
+9: НАСТРОЙКА БЛОКА НАВЫКОВ
+10: НАСТРОЙКА БЛОКА ПОРТФОЛИО
+11: НАСТРОЙКА БЛОКА КОНТАКТЫ
+12: НАСТРОЙКА ПОДВАЛА САЙТА
+*/
+/*============ШРИФТЫ==================*/
 @import url("../fonts/PTSerif-Regular");
 /* font-family: 'PT Serif', serif;*/
 @import url("../fonts/Lora-Regular");
@@ -8,6 +25,7 @@
 /*font-family: 'Raleway', sans-serif;*/
 @import url("../fonts/OpenSans-Regular.ttf");
 /* font-family: 'Open Sans', sans-serif; */
+/*============ОБЩИЕ НАСТРОЙКИ==================*/
 *,
 *:before,
 *:after {
@@ -37,14 +55,16 @@ p {
   margin: 0 auto;
 }
 
+/*========================НАСТРОЙКИ КНОПКИ ЯКОРЯ==============================*/
 .bottom_btn {
+  display: block;
   position: fixed;
   bottom: 5px;
   right: 15px;
   z-index: 9;
   width: 35px;
   height: 35px;
-  background: #ffeaea;
+  background: #dcc2c2;
   border-radius: 50%;
   cursor: pointer;
   visibility: hidden;
@@ -58,7 +78,7 @@ p {
   height: 17px;
   border-top: 3px solid #9772d2;
   border-left: 3px solid #9772d2;
-  opacity: .1;
+  opacity: .3;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   -webkit-transition: opacity .3s linear;
@@ -97,6 +117,7 @@ p {
   }
 }
 
+/*========================НАСТРОЙКА БУРГЕР МЕНЮ==============================*/
 .hamburglar {
   -webkit-transform: scale(1);
           transform: scale(1);
@@ -476,25 +497,25 @@ p {
 @-webkit-keyframes bun-top-in {
   0% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
   }
   20% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-60deg);
             transform: rotate(-60deg);
   }
   80% {
     left: 0;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
   100% {
     left: 0;
-    bot: 1px;
+    bottom: 1px;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
@@ -503,25 +524,25 @@ p {
 @keyframes bun-top-in {
   0% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
   }
   20% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-60deg);
             transform: rotate(-60deg);
   }
   80% {
     left: 0;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
   100% {
     left: 0;
-    bot: 1px;
+    bottom: 1px;
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
@@ -535,13 +556,13 @@ p {
   }
   20% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(60deg);
             transform: rotate(60deg);
   }
   80% {
     left: 0;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
@@ -560,13 +581,13 @@ p {
   }
   20% {
     left: -5px;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(60deg);
             transform: rotate(60deg);
   }
   80% {
     left: 0;
-    bot: 0;
+    bottom: 0;
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
@@ -667,6 +688,7 @@ p {
   }
 }
 
+/*========================НАСТРОЙКА ШАПКИ==============================*/
 .header_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -845,6 +867,7 @@ p {
   }
 }
 
+/*====================НАСТРОЙКА ТИТУЛЬНОЙ СТРАНИЦЫ=====================*/
 .intro {
   background: url("../img/me_sait_img/intro_bg.jpg") center no-repeat;
   background-size: cover;
@@ -1063,6 +1086,7 @@ p {
   }
 }
 
+/*========================ОБЩИЕ НАСТРОЙКИ СЕКЦИЙ==============================*/
 .section {
   background: #fdfaed;
   padding-top: 35px;
@@ -1160,6 +1184,7 @@ p {
   }
 }
 
+/*=====================НАСТРОЙКА БЛОКА ОБО МНЕ===========================*/
 .section_title_about:before {
   left: -280px;
 }
@@ -1309,6 +1334,7 @@ p {
   }
 }
 
+/*=====================НАСТРОЙКА БЛОКА НАВЫКОВ===========================*/
 .section_title_skils:before {
   left: -310px;
 }
@@ -1414,6 +1440,7 @@ p {
   }
 }
 
+/*=====================НАСТРОЙКА БЛОКА ПОРТФОЛИО===========================*/
 .section_title_works:before {
   left: -300px;
 }
@@ -1626,6 +1653,7 @@ p {
   }
 }
 
+/*=====================НАСТРОЙКА БЛОКА КОНТАКТЫ===========================*/
 .section_title_contact:before {
   left: -327px;
 }
@@ -1898,6 +1926,7 @@ p {
   }
 }
 
+/*=====================НАСТРОЙКА ПОДВАЛА САЙТА===========================*/
 .footer {
   background: #000000;
   padding: 20px 0;

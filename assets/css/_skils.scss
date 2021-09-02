@@ -1,11 +1,9 @@
 .section_title_skils {
     &:before {
-
         left: -310px;
     }
 
     &:after {
-
         left: 260px;
     }
 }
@@ -36,14 +34,12 @@
 .skils_box_item_icon img {
     width: 55px;
     height: auto;
-
 }
 
 .skils_box_item_title {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
-
     margin-bottom: 15px;
 }
 
@@ -63,12 +59,9 @@
             left: 260px;
         }
     }
-
-
 }
 
 @media (max-width: 776px) {
-
     .section_title_skils {
         &:before {
             left: -83px;
@@ -122,5 +115,4 @@
             left: 260px;
         }
     }
-
 }
