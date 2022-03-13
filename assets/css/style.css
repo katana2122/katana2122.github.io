@@ -1203,31 +1203,15 @@ p {
 }
 
 .about_text_box {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
-  width: 60%;
-  margin-right: 0;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .about_text_box_text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.2;
-  font-family: 'PT Serif', serif;
-}
-
-.about_img {
-  width: 40%;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-  text-align: center;
-}
-
-.about_img img {
-  margin: 0 auto;
-  width: 50%;
-  height: auto;
+  font-family: "PT Serif", serif;
 }
 
 @media (max-width: 996px) {
@@ -1238,23 +1222,7 @@ p {
     left: 230px;
   }
   .about_text_box {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    width: 60%;
-    margin-right: 30px;
-  }
-  .about_img {
-    width: 40%;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    text-align: center;
-  }
-  .about_img img {
-    display: block;
-    width: 50%;
-    height: auto;
+    width: 100%;
   }
 }
 
@@ -1265,56 +1233,9 @@ p {
   .section_title_about:after {
     left: 230px;
   }
-  .about_text_box {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    width: 60%;
-    margin-right: 30px;
-  }
-  .about_img {
-    width: 40%;
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-  .about_img img {
-    width: 60%;
-  }
   .about_text_box_text {
     padding-top: 0;
     font-size: 16px;
-  }
-}
-
-@media (max-width: 700px) {
-  .about_box {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .about_text_box {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    width: 100%;
-    margin-right: 0px;
-  }
-  .about_img {
-    width: 35%;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    margin: 0 auto;
-  }
-}
-
-@media (max-width: 600px) {
-  .about_img {
-    width: 45%;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    margin: 0 auto;
   }
 }
 
@@ -1324,13 +1245,6 @@ p {
   }
   .section_title_about:after {
     left: 230px;
-  }
-  .about_img {
-    width: 50%;
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-    margin: 0 auto;
   }
 }
 
@@ -1936,3 +1850,4 @@ p {
   color: #fff;
   text-align: center;
 }
+/*# sourceMappingURL=style.css.map */
