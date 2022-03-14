@@ -12,10 +12,9 @@
     text-align: center;
     font-size: 24px;
     line-height: 1.2;
-    font-family: 'PT Serif', serif;
+    font-family: "PT Serif", serif;
     margin-bottom: 50px;
 }
-
 
 .form_name_and_email {
     display: flex;
@@ -31,7 +30,7 @@
     outline: 0;
     border: 2px solid #3c3c3c;
     font-size: 16px;
-    transition: .4s linear;
+    transition: 0.4s linear;
 
     &:focus {
         border: 2px solid #4495ff;
@@ -45,7 +44,7 @@
     outline: 0;
     border: 2px solid #3c3c3c;
     font-size: 16px;
-    transition: .4s linear;
+    transition: 0.4s linear;
 
     &:focus {
         border: 2px solid #4495ff;
@@ -62,7 +61,7 @@
     border-radius: 7px;
     outline: 0;
     border: 2px solid #3c3c3c;
-    transition: .4s linear;
+    transition: 0.4s linear;
 
     &:focus {
         border: 2px solid #4495ff;
@@ -81,7 +80,7 @@
     border-radius: 7px;
     outline: 0;
     border: 2px solid #3c3c3c;
-    transition: .4s linear;
+    transition: 0.4s linear;
 
     &:hover {
         background: #b8b7b7;
@@ -138,7 +137,7 @@
 
 .link_box_item_box_item {
     margin-right: 15px;
-    transition: transform .5s linear;
+    transition: transform 0.5s linear;
 
     &:hover {
         transform: translateY(-10px);
@@ -176,9 +175,7 @@
     margin-bottom: 15px;
 }
 
-
 @media (max-width: 996px) {
-
     .section_title_contact:before {
         left: -226px;
     }
@@ -193,7 +190,6 @@
 }
 
 @media (max-width: 776px) {
-
     .section_title_contact:before {
         left: -100px;
     }
@@ -219,13 +215,21 @@
     }
 
     .link_box_item a {
-
         font-size: 18px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 776px) {
+    .link_box_item {
+        margin-right: 8px;
 
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: 500px) {
     .section_title_contact:before {
         left: -30px;
     }
@@ -252,6 +256,7 @@
 
     .link_box_item {
         margin-bottom: 20px;
+        margin-right: 0;
 
         &:last-child {
             margin-bottom: 0;
@@ -259,7 +264,6 @@
     }
 
     .link_box_item a {
-
         font-size: 16px;
     }
 }

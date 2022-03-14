@@ -1580,7 +1580,7 @@ p {
   text-align: center;
   font-size: 24px;
   line-height: 1.2;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   margin-bottom: 50px;
 }
 
@@ -1602,8 +1602,8 @@ p {
   outline: 0;
   border: 2px solid #3c3c3c;
   font-size: 16px;
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .form_name:focus {
@@ -1617,8 +1617,8 @@ p {
   outline: 0;
   border: 2px solid #3c3c3c;
   font-size: 16px;
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .form_email:focus {
@@ -1635,8 +1635,8 @@ p {
   border-radius: 7px;
   outline: 0;
   border: 2px solid #3c3c3c;
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .form_text:focus {
@@ -1655,8 +1655,8 @@ p {
   border-radius: 7px;
   outline: 0;
   border: 2px solid #3c3c3c;
-  -webkit-transition: .4s linear;
-  transition: .4s linear;
+  -webkit-transition: 0.4s linear;
+  transition: 0.4s linear;
 }
 
 .form_btn:hover {
@@ -1721,10 +1721,10 @@ p {
 
 .link_box_item_box_item {
   margin-right: 15px;
-  -webkit-transition: -webkit-transform .5s linear;
-  transition: -webkit-transform .5s linear;
-  transition: transform .5s linear;
-  transition: transform .5s linear, -webkit-transform .5s linear;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
 }
 
 .link_box_item_box_item:hover {
@@ -1803,6 +1803,15 @@ p {
   }
 }
 
+@media (max-width: 776px) {
+  .link_box_item {
+    margin-right: 8px;
+  }
+  .link_box_item:last-child {
+    margin-bottom: 0;
+  }
+}
+
 @media (max-width: 500px) {
   .section_title_contact:before {
     left: -30px;
@@ -1831,6 +1840,7 @@ p {
   }
   .link_box_item {
     margin-bottom: 20px;
+    margin-right: 0;
   }
   .link_box_item:last-child {
     margin-bottom: 0;
